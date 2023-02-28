@@ -17,29 +17,29 @@ export class LevelSidemenuComponent implements OnInit {
 
   ngOnInit(): void {
     //this.Items = [collection];
-    
+
     this.Items = [
         {
             label: 'Lesson 3: Whats going on?',
             items: [
-                { label: 'Introduction', command: () => this.levelService.viewPage=1},
-                { label: 'Warm Up', command: () => this.levelService.viewPage=2},
-                { label: 'Picture Play', command: () => this.levelService.viewPage=3},
-                { label: 'Open Story', command: () => this.levelService.viewPage=4},
-                { label: 'Think and Write', command: () => this.levelService.viewPage=5},
-                { label: 'word Help', command: () => this.levelService.viewPage=6}
+                { label: 'Introduction', command: () => this.levelService.getLesson("unit_1","l1","t1")},
+                { label: 'Warm Up', command: () => this.levelService.getLesson("unit_1","l1","t2")},
+                { label: 'Picture Play', command: () => this.levelService.getLesson("unit_1","l1","t3")},
+                { label: 'Open Story', command: () => this.levelService.getLesson("unit_1","l1","t4")},
+                { label: 'Think and Write', command: () => this.levelService.getLesson("unit_1","l1","t5")},
+                { label: 'Word Help', command: () => this.levelService.getLesson("unit_1","l1","t6")}
             ]
         },
         {
             label: 'Lesson 5: Seasons and Weather',
             items: [
-                { label: 'Introduction', command: () => this.levelService.viewPage=7},
+                { label: 'Introduction', command: () =>this.levelService.getLesson("unit_1","l2","t1")},
                 { label: 'Warm Up', command: () => this.levelService.viewPage=8},
                 { label: 'Word Play', command: () => this.levelService.viewPage=9},
                 { label: 'Picture Play', command: () => this.levelService.viewPage=10},
                 { label: 'Lets Talk', command: () => this.levelService.viewPage=11},
                 { label: 'Think and Write', command: () => this.levelService.viewPage=12},
-                { label: 'word Help', command: () => this.levelService.viewPage=13}
+                { label: 'Word Help', command: () => this.levelService.viewPage=13}
             ]
         },
         {
@@ -51,7 +51,7 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'Picture Play', command: () => this.levelService.viewPage=17},
                 { label: 'Lets Talk', command: () => this.levelService.viewPage=18},
                 { label: 'Think and Write', command: () => this.levelService.viewPage=19},
-                { label: 'word Help', command: () => this.levelService.viewPage=20}
+                { label: 'Word Help', command: () => this.levelService.viewPage=20}
             ]
         },
         {
@@ -62,7 +62,7 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'Picture Play', command: () => this.levelService.viewPage=23},
                 { label: 'Lets Talk', command: () => this.levelService.viewPage=24},
                 { label: 'Think and Write', command: () => this.levelService.viewPage=25},
-                { label: 'word Help', command: () => this.levelService.viewPage=26}
+                { label: 'Word Help', command: () => this.levelService.viewPage=26}
             ]
         },
         {
@@ -73,7 +73,7 @@ export class LevelSidemenuComponent implements OnInit {
                 { label: 'Open Story', command: () => this.levelService.viewPage=29},
                 { label: 'Lets Talk', command: () => this.levelService.viewPage=30},
                 { label: 'Think and Write', command: () => this.levelService.viewPage=31},
-                { label: 'word Help', command: () => this.levelService.viewPage=32}
+                { label: 'Word Help', command: () => this.levelService.viewPage=32}
             ]
         },
         // {
@@ -85,7 +85,7 @@ export class LevelSidemenuComponent implements OnInit {
         //             expanded: true,
         //             items: [
         //                 {
-        //                     label: 'Lesson 3', 
+        //                     label: 'Lesson 3',
         //                     expanded: true,
         //                     items: [
         //                         {
@@ -97,13 +97,13 @@ export class LevelSidemenuComponent implements OnInit {
         //                                 { label: 'Picture Play', command: () => this.levelService.viewPage=3},
         //                                 { label: 'Open Story', command: () => this.levelService.viewPage=4},
         //                                 { label: 'Think and Write', command: () => this.levelService.viewPage=5},
-        //                                 { label: 'word Help', command: () => this.levelService.viewPage=6}
+        //                                 { label: 'Word Help', command: () => this.levelService.viewPage=6}
         //                             ]
         //                         }
         //                     ]
         //                 },
         //                 {
-        //                     label: 'Lesson 5', 
+        //                     label: 'Lesson 5',
         //                     items: [
         //                         {
         //                             label: 'Seasons and Weather',
@@ -114,7 +114,7 @@ export class LevelSidemenuComponent implements OnInit {
         //                                 { label: 'Picture Play', command: () => this.levelService.viewPage=10},
         //                                 { label: 'Lets Talk', command: () => this.levelService.viewPage=11},
         //                                 { label: 'Think and Write', command: () => this.levelService.viewPage=12},
-        //                                 { label: 'word Help', command: () => this.levelService.viewPage=13}
+        //                                 { label: 'Word Help', command: () => this.levelService.viewPage=13}
         //                             ]
         //                         }
         //                     ]
@@ -131,7 +131,7 @@ export class LevelSidemenuComponent implements OnInit {
         //                                 { label: 'Picture Play', command: () => this.levelService.viewPage=17},
         //                                 { label: 'Lets Talk', command: () => this.levelService.viewPage=18},
         //                                 { label: 'Think and Write', command: () => this.levelService.viewPage=19},
-        //                                 { label: 'word Help', command: () => this.levelService.viewPage=20}
+        //                                 { label: 'Word Help', command: () => this.levelService.viewPage=20}
         //                             ]
         //                         }
         //                     ]
@@ -147,7 +147,7 @@ export class LevelSidemenuComponent implements OnInit {
         //                                 { label: 'Picture Play', command: () => this.levelService.viewPage=23},
         //                                 { label: 'Lets Talk', command: () => this.levelService.viewPage=24},
         //                                 { label: 'Think and Write', command: () => this.levelService.viewPage=25},
-        //                                 { label: 'word Help', command: () => this.levelService.viewPage=26}
+        //                                 { label: 'Word Help', command: () => this.levelService.viewPage=26}
         //                             ]
         //                         }
         //                     ]
@@ -164,11 +164,11 @@ export class LevelSidemenuComponent implements OnInit {
         //         { label: 'Picture Play', command: () => this.levelService.viewPage=3},
         //         { label: 'Open Story', command: () => this.levelService.viewPage=4},
         //         { label: 'Think and Write', command: () => this.levelService.viewPage=5},
-        //         { label: 'word Help', command: () => this.levelService.viewPage=6}
+        //         { label: 'Word Help', command: () => this.levelService.viewPage=6}
         //     ]
         // },
     ];
   }
- 
+
 
 }

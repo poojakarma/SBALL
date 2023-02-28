@@ -10,6 +10,7 @@ export class IntroductionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("gourav", this.instruction);
   }
 
 }
