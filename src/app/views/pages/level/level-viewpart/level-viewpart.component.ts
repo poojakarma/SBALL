@@ -24,13 +24,13 @@ export class LevelViewpartComponent implements OnInit {
       "You will identify some actions and talk briefly about them.",
       "You will read words and sentences describing different actions and understand what they mean.",
       "You will write some simple sentences to describe everyday actions."
-    ],    
+    ],
     id: "lesson-1",
     instruction_1: {
       en_text: "You will listen carefully to find out specific information about your immediate environment and understand simple descriptions of objects.",
       ta_text: ""
     }
-  } 
+  }
 
   introduction_lesson_2 = {
     title: 'Weather: What\'s in store today?',
@@ -45,7 +45,7 @@ export class LevelViewpartComponent implements OnInit {
       en_text: "In this lesson, we will look at different seasons and weather.",
       ta_text: ""
     }
-  } 
+  }
 
   introduction_lesson_3 = {
     title: 'Location: What\'s in store today?',
@@ -60,7 +60,7 @@ export class LevelViewpartComponent implements OnInit {
       en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
       ta_text: ""
     }
-  } 
+  }
 
   introduction_lesson_4 = {
     title: 'Feelings: What\'s in store today?',
@@ -76,7 +76,7 @@ export class LevelViewpartComponent implements OnInit {
       en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
       ta_text: ""
     }
-  } 
+  }
 
   introduction_lesson_5 = {
     title: 'Feelings: What\'s in store today?',
@@ -92,7 +92,7 @@ export class LevelViewpartComponent implements OnInit {
       en_text: "In this lesson, you will learn to understand and describe locations of things in your immediate surroundings.",
       ta_text: ""
     }
-  } 
+  }
 
 
 
@@ -171,7 +171,7 @@ export class LevelViewpartComponent implements OnInit {
     }
   }
 
-    
+
   wordplayData_2 = {
     title: 'Word Play: Matching Game',
     id: "lesson-2",
@@ -254,9 +254,9 @@ export class LevelViewpartComponent implements OnInit {
     instruction_2: {
         en_text: "Click  ► to listen to a situation. Then, click on the appropriate 'feeling' in the box. Drag and drop it to the correct image/audio. Click on 'Check Answer' when you finish.",
         ta_text: "పరిస్థితిని వినడానికి ► క్లిక్ చేయండి. తరువాత, బాక్సులో సముచిత  'భావన' పైన క్లిక్ చేయండి. సరియైన చిత్రం/ఆడియోకి దానిని డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి. మీరు పూర్తి చేసిన తరువాత 'జవాబు సరైందో కాదో చూడండి'."
-       
+
       },
-    
+
     iframe: {
       instruction_1:{
         en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
@@ -278,9 +278,9 @@ export class LevelViewpartComponent implements OnInit {
     instruction_2: {
         en_text: "Click on ► to listen to the weather report.Drag and drop the images onto the correct parts of the country. Good luck!",
         ta_text: "వాతావరణ నివేదికను వినడానికి ► పైన క్లిక్ చేయండి.దేశం యొక్క సరియైన భాగాలకు చిత్రాల పైన డ్రాగ్ చేసి మరియు డ్రాప్ చేయండి.శుభం కలుగు గాక!"
-       
+
       },
-    
+
     iframe: {
       instruction_1:{
         en_text: "Drag and drop the right person to complete the pair. Then, click on the record button to say the name of the relationship. e.g. husband and wife.",
@@ -307,7 +307,9 @@ export class LevelViewpartComponent implements OnInit {
     instruction_3: {
       en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
       ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
-    }
+    },
+    iframe: "http://localhost:4200/assets/open-story/images/Describe_the_action/Describe_the_action.csst"
+
   }
 
   thinkAndWrite_lesson_1 = {
@@ -708,7 +710,7 @@ export class LevelViewpartComponent implements OnInit {
 
   ngOnInit(): void {
     this.initJsonList();
-    
+
   }
 
   initJsonList(){
@@ -728,7 +730,7 @@ export class LevelViewpartComponent implements OnInit {
         "getques":'',
       }
     ]
-  }  
+  }
 
   allowDrop(ev){
     ev.preventDefault();
