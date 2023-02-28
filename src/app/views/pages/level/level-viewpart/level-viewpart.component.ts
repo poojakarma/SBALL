@@ -308,7 +308,28 @@ export class LevelViewpartComponent implements OnInit {
       en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
       ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
     },
-    iframe: "http://localhost:4200/assets/open-story/images/Describe_the_action/Describe_the_action.csst"
+    iframe: "assets/collection/lesson-1/open-story/Describe_the_action.csst"
+
+  }
+
+  openStory_lesson_10 = {
+    title: 'Open Story: Describe the Action',
+    id: "lesson-1",
+    instruction_1: {
+      en_text: "We just saw a video of people doing different actions. Can you match the images below with the actions described?",
+      ta_text: "வெவ்வேறு செயல்களைச் செய்யும் நபர்களின் காணொளி பார்த்தோம். விவரிக்கப்பட்டுள்ள செயல்களுடன் கீழே உள்ள படங்களை உங்களால் பொருத்த முடியுமா?",
+      audio: "assets/collection/lesson-1/picture-play/instruction-1.mp3"
+    },
+    instruction_2: {
+      en_text: "Click ► to begin.",
+      ta_text: "தொடங்க ► கிளிக் செய்யவும்.",
+      video: "assets/collection/lesson-1/video/instruction-2.mp4"
+    },
+    instruction_3: {
+      en_text: "Watch again by clicking ► button.Click 'Picture Play' to go to the next activity.",
+      ta_text: "► பொத்தானைக் கிளிக் செய்வதன் மூலம் மீண்டும் பார்க்கவும். அடுத்த செயல்பாட்டிற்குச் செல்ல 'படம் விளையாடு' என்பதைக் கிளிக் செய்யவும்."
+    },
+    iframe: "assets/collection/lesson-10/open-story/EBU02L10.csst"
 
   }
 

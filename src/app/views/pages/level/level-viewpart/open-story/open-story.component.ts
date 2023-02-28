@@ -15,11 +15,7 @@ export class OpenStoryComponent implements OnInit {
   }
 
   getIframeUrl() {
-  //   console.log(this.location);
-  // console.log(this.location.prepareExternalUrl('/'));
-  // console.log(this.locationStrategy.getBaseHref());
-    //return this.sanitizer.bypassSecurityTrustResourceUrl("open-story/Open Story.html?file=http://localhost:4200/assets/open-story/images/Describe_the_action/Describe_the_action.csst");
-    return this.sanitizer.bypassSecurityTrustResourceUrl("open-story/Open Story.html?file=" + this.data.iframe);
+    return this.sanitizer.bypassSecurityTrustResourceUrl("open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + this.data.iframe);
   }
 
 }
