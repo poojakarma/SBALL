@@ -204,7 +204,7 @@ export class LevelViewpartComponent implements OnInit {
         "ta_text": "ஆடியோவைக் கவனமாகக் கேளுங்கள். செயலை விவரிக்கும் ஆடியோ எண் கொண்ட பெட்டியில் படத்தை இழுத்து விடவும்.",
         "audio": "assets/collection/lesson-5/picture-play/instruction-1.mp3"
       },
-      "src": "https://h5p.org/h5p/embed/1355993\n"
+      "src": "https://h5p.org/h5p/embed/1355993"
     }
   }
   picturePlayData_lesson_6 = {
