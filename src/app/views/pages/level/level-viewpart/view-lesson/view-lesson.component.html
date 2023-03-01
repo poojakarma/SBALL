@@ -1,0 +1,45 @@
+<div *ngIf="lessonData">
+  <h4 class="rounded bg-light py-3 px-4">{{lessonData?.title}}</h4>
+  <div *ngFor="let item of lessonData.data;">
+    <section *ngIf="item.type == 'html'" [innerHTML]="item.content">
+    </section>
+
+    <section *ngIf="item.text">
+      <div *ngIf="item.text">{{ item.text }}</div>
+    </section>
+
+    <section *ngIf="item.type == 'audio'">
+      <audio class="w-100 mt-4" controls >
+        <source [src]="item.content" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section *ngIf="item.type == 'video'">
+      <video class="w-50 mx-auto mt-4 rounded" controls>
+        <source [src]="item.content" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <section *ngIf="item.type == 'h5p'">
+      <iframe [src]="geth5pUrl(item.content)" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="mcq image type"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    </section>
+
+    <section *ngIf="item.type == 'openStory'">
+      <iframe width=100%; height="600;" [src]="getOpenStoryUrl(item.content)"></iframe>
+    </section>
+
+    <section *ngIf="item.type == 'recording'">
+      <iframe width=100%; height="600;" [src]="getRecordingUrl()"></iframe>
+    </section>
+
+    <section *ngIf="item.type == 'iframe'">
+      <iframe width=100%; height="600;" [src]="getIframeUrl(item.content)"></iframe>
+    </section>
+
+    <section *ngIf="item.type == 'image'">
+      <img [src]="item.content">
+    </section>
+  </div>
+</div>

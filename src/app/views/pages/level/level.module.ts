@@ -18,6 +18,7 @@ import { IntroductionComponent } from './level-viewpart/introduction/introductio
 import { PicturePlayComponent } from './level-viewpart/picture-play/picture-play.component';
 import { ThinkAndWriteComponent } from './level-viewpart/think-and-write/think-and-write.component';
 import { WordHelpComponent } from './level-viewpart/word-help/word-help.component';
+import { ViewLessonComponent } from './level-viewpart/view-lesson/view-lesson.component';
 
 
 
@@ -49,6 +50,7 @@ const routes: Routes = [
     PicturePlayComponent,
     ThinkAndWriteComponent,
     WordHelpComponent,
+    ViewLessonComponent,
   
   ],
   imports: [

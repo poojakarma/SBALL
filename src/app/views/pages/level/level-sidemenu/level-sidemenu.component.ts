@@ -22,18 +22,18 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 3: Whats going on?',
             items: [
-                { label: 'Introduction', command: () => this.levelService.getLesson("unit_1","l1","t1")},
-                { label: 'Warm Up', command: () => this.levelService.getLesson("unit_1","l1","t2")},
-                { label: 'Picture Play', command: () => this.levelService.getLesson("unit_1","l1","t3")},
-                { label: 'Open Story', command: () => this.levelService.getLesson("unit_1","l1","t4")},
-                { label: 'Think and Write', command: () => this.levelService.getLesson("unit_1","l1","t5")},
-                { label: 'Word Help', command: () => this.levelService.getLesson("unit_1","l1","t6")}
+                { label: 'Introduction', command: () => this.levelService.getLesson("lesson1")},
+                { label: 'Warm Up', command: () => this.levelService.getLesson("lesson1")},
+                { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1")},
+                { label: 'Open Story', command: () => this.levelService.getLesson("lesson1")},
+                { label: 'Think and Write', command: () => this.levelService.getLesson("lesson1")},
+                { label: 'Word Help', command: () => this.levelService.getLesson("lesson1")}
             ]
         },
         {
             label: 'Lesson 5: Seasons and Weather',
             items: [
-                { label: 'Introduction', command: () =>this.levelService.getLesson("unit_1","l2","t1")},
+                { label: 'Introduction', command: () =>this.levelService.getLesson("lesson1")},
                 { label: 'Warm Up', command: () => this.levelService.viewPage=8},
                 { label: 'Word Play', command: () => this.levelService.viewPage=9},
                 { label: 'Picture Play', command: () => this.levelService.viewPage=10},

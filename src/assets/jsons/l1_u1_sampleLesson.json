@@ -1,0 +1,50 @@
+{
+  "title": "Introduction",
+  "id": "l1_u1_sampleLesson",
+  "data": [
+    {
+        "type": "html",
+        "content": "<blockquote>Listen and read along.<br><br>  सुनो और साथ में पढ़ो। <br> వినండి మరియు చదవండి. </blockquote>"
+    },
+    {
+        "type": "text",
+        "content": "Text content"
+    },
+    {
+        "type": "audio",
+        "content": "assets/collection/lesson-1/audio/instruction-1.mp3"
+    },
+    {
+        "type": "html",
+        "content": "<blockquote> <div>Click ► to begin.</div>  <p><br>  क्लिक ► शुरू करने के लिए।<br>  క్లిక్ ► మొదలుపెట్టడానికి.</p>  </blockquote>"
+    },
+    {
+        "type": "video",
+        "content": "https://clixplatform.tiss.edu/media/9/2/f/277bdc47c5f19b056b46c8b840d78af1fd19581cc6d44d2be7e2eaa3a8039.mp4"
+    },
+    {
+        "type": "html",
+        "content": "<blockquote><h4>Watch again by clicking&nbsp;► button.&nbsp;</h4>Click 'Picture Play' to go to the next activity.<br><br>► दबाकर फिर से देखिये । अगली गतिविधि पर जाने के लिए 'Picture Play' पर क्लिक करिये।<br>► నొక్కడం ద్వారా మళ్ళీ చూడండి. తదుపరి చర్యకు వెళ్ళడానికి క్లిక్ 'Picture Play' (జత పరచండి).</blockquote>"
+    },
+    {
+        "type": "h5p",
+        "content": "https://h5p.org/h5p/embed/1356235"
+    },
+    {
+      "type": "openStory",
+      "content": "assets/collection/lesson-1/open-story/Describe_the_action.csst"
+    },
+    {
+      "type": "recording",
+      "content": ""
+    },
+    {
+      "type": "iframe",
+      "content": "https://sballtnpoc.uniteframework.io/proto3/all?source=https://sballtnpoc.uniteframework.io/db/users.json"
+    },
+    {
+      "type": "image",
+      "content": "assets/images/download.png"
+    }
+  ]
+}
