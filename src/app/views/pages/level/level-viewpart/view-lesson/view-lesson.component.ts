@@ -15,13 +15,12 @@ export class ViewLessonComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getOpenStoryUrl(url) {
-    console.log("openstoryurl++++++++++++++++++++++")
-    //return this.sanitizer"open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + url);
+  getOpenStoryHtml(url) {
+    let openStoryPath = "open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + url;
+    return '<iframe width=100%; height="600;" src="'+ openStoryPath +'"></iframe>'
   }
 
    getIframeUrl(url) {
-    console.log("getifr++++++++++++++++++++++")
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
