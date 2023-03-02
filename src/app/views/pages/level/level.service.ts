@@ -12,8 +12,13 @@ export class LevelService {
   mechanic :any;
   constructor(private httpService: HttpClient) { }
 
-   getJson(id) {
-    return this.httpService.get('../../../../assets/'+ id + '/' +id + '.json');
+  getJson(basePath,id) {
+    return this.httpService.get('../../../../assets/lessons/'+ basePath +'/'+id+'/'+id+'.json');
+    // this.httpService.get('../../../../assets/lessons/lesson1/openstory/openstory.json');
+    // this.httpService.get('../../../../assets/lessons/lesson1/pictureplay/pictureplay.json');
+    // this.httpService.get('../../../../assets/lessons/lesson1/thinkandwrite/thinkandwrite.json');
+    // this.httpService.get('../../../../assets/lessons/lesson1/warmup/warmup.json');
+    // this.httpService.get('../../../../assets/lessons/lesson1/wordhelp/wordhelp.json');
   }
 
   getCollection(){
@@ -24,9 +29,9 @@ export class LevelService {
 
   }
 
-  getLesson(lessonId){
+  getLesson(basePath,lessonId){
     console.log(lessonId);
-    this.getJson(lessonId).subscribe(res =>
+    this.getJson(basePath, lessonId).subscribe(res =>
       this.lessonData = res
     );
     console.log(this.lessonData);

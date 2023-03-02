@@ -1,0 +1,17 @@
+{
+    "title": "Open Story: Describe the Steps",
+    "id": "openstory",
+    "data": [
+      {
+          "type": "html",
+          "content": "<br><blockquote>Describe the steps.</blockquote>"
+      },
+      
+      {
+        "type": "openStory",
+        "content": "assets/collection/lesson-1/open-story/Describe_the_action.csst"
+      }    
+  ]
+  }
+  
+  

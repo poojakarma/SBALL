@@ -39,6 +39,7 @@
     </section>
 
     <section *ngIf="item.type == 'openstory'" [innerHTML]="item.content| safe: 'html'">
+      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'wordHelp'">

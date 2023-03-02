@@ -17,7 +17,7 @@ export class ViewLessonComponent implements OnInit {
 
   getOpenStoryUrl(url) {
     console.log("openstoryurl++++++++++++++++++++++")
-    return this.sanitizer.bypassSecurityTrustResourceUrl("open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + url);
+    //return this.sanitizer"open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + url);
   }
 
    getIframeUrl(url) {

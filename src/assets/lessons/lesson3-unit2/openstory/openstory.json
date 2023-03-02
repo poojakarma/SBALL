@@ -1,0 +1,17 @@
+{
+    "title": "Open Story: Be An Author",
+    "id": "openstory",
+    "data": [
+      {
+          "type": "html",
+          "content": "<br><blockquote>Arrange the pictures, write the captions and create a story !</blockquote>"
+      },
+      
+      {
+        "type": "openStory",
+        "content": "assets/collection/lesson-1/open-story/Describe_the_action.csst"
+      }    
+  ]
+  }
+  
+  
