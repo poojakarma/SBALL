@@ -1,10 +1,9 @@
 {
     "title": "Word Help",
     "id": "wordhelp",
-    "data": [
-       
+    "data": [ 
         {
-            "type": "wordhelp",
+            "type": "wordHelp",
             "content": [
               {
                   "word": "appropriate",

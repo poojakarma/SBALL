@@ -12,21 +12,17 @@
     },
     {
         "type": "audio",
-        "content": "assets/lesson5/wordplay/audio/instruction-1.mp3"
+        "content": "assets/lessons/lesson5/wordplay/audio/instruction-1.mp3"
     },
     {
-      "type": "image",
-      "content": "assets/lesson5/wordplay/image/img1.jpg"
+      "type": "images",
+      "content": [
+        {"src": "assets/lessons/lesson5/wordplay/image/img1.jpg"},
+        {"src": "assets/lessons/lesson5/wordplay/image/img2.jpg"},
+        {"src": "assets/lessons/lesson5/wordplay/image/img3.jpg"}
+        ]
     },
     {
-        "type": "image",
-        "content": "assets/lesson5/wordplay/image/img2.jpg"
-      },
-      {
-        "type": "image",
-        "content": "assets/lesson5/wordplay/image/img3.jpg"
-      },
-      {
         "type": "html",
         "content": "<br><br><blockquote>Drag and drop the correct word in the blank. Click 'Check Answer' when you finish. </blockquote><br><br>"
     },

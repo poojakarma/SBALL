@@ -4,12 +4,12 @@
   "data": [
     {
         "type": "image",
-        "content": "assets/lesson3-unit2/Introduction2/images/2.png"
+        "content": "assets/lessons/lesson3-unit2/introduction2/images/2.png"
       },
-      
+
     {
         "type": "audio",
-        "content": "assets/lesson3-unit2/Introduction/audio/instruction-1.mp3"
+        "content": "assets/lessons/lesson3-unit2/introduction/audio/instruction-1.mp3"
     },
     {
       "type": "html",

@@ -12,7 +12,7 @@
       },
       {
           "type": "audio",
-          "content": "assets/lesson4/letstalk2/audio/audio1.mp3"
+          "content": "assets/lessons/unit2lesson4/letstalk2/audio/audio1.mp3"
       },
       {
         "type": "recording",
@@ -20,11 +20,11 @@
       },
       {
         "type": "audio",
-        "content": "assets/lesson4/letstalk2/audio/audio2.mp3"
+        "content": "assets/lessons/unit2lesson4/letstalk2/audio/audio2.mp3"
     },
     {
       "type": "audio",
-      "content": "assets/lesson4/letstalk2/audio/audio3.mp3"
+      "content": "assets/lessons/unit2lesson4/letstalk2/audio/audio3.mp3"
   }
   ]
   }

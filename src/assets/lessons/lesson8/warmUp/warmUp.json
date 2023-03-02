@@ -12,7 +12,7 @@
     },
     {
         "type": "audio",
-        "content": "assets/lesson8/warmUp/audio/instruction-1.mp3"
+        "content": "assets/lessons/lesson8/warmUp/audio/instruction-1.mp3"
     },
     {
         "type": "html",
@@ -20,7 +20,7 @@
     },
     {
         "type": "video",
-        "content": "assets/lesson8/warmUp/video/instruction1.mp4"
+        "content": "assets/lessons/lesson8/warmUp/video/instruction1.mp4"
     },
     {
         "type": "html",
@@ -28,4 +28,4 @@
     }
         ]
     }
-  
+

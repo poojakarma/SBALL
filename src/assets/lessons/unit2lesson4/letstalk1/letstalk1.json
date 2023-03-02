@@ -2,14 +2,14 @@
     "title": "Let's Talk: Professions",
     "id": "letstalk1",
     "data": [
-      
+
       {
           "type": "html",
           "content": "<br><blockquote>What job do you like? Do you like learning new things and teaching people? Maybe you already do some work.<br><br> </blockquote>"
       },
       {
           "type": "audio",
-          "content": "assets/lesson4/letstalk1/audio/audio1.mp3"
+          "content": "assets/lessons/unit2lesson4/letstalk1/audio/audio1.mp3"
       },
       {
         "type": "recording",
@@ -17,11 +17,11 @@
       },
       {
         "type": "audio",
-        "content": "assets/lesson4/letstalk1/audio/audio2.mp3"
+        "content": "assets/lessons/unit2lesson4/letstalk1/audio/audio2.mp3"
     },
     {
       "type": "audio",
-      "content": "assets/lesson4/letstalk1/audio/audio3.mp3"
+      "content": "assets/lessons/unit2lesson4/letstalk1/audio/audio3.mp3"
   }
   ]
   }

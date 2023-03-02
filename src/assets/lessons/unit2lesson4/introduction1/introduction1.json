@@ -5,18 +5,17 @@
 
         {
             "type": "image",
-            "content": "assets/lesson4/introduction1/image/img1.png"
+            "content": "assets/lessons/unit2lesson4/introduction1/image/img1.png"
           },
-      
+
       {
           "type": "audio",
-          "content": "assets/lesson4/introduction1/audio/instruction-1.mp3"
+          "content": "assets/lessons/unit2lesson4/introduction1/audio/instruction-1.mp3"
       },
       {
         "type": "html",
         "content": "<br><br><blockquote>You can listen to the audio again by clicking on the ► button.</blockquote>"
     }
-     
+
          ]
   }
-  

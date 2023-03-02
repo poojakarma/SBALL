@@ -93,7 +93,7 @@ export class LevelSidemenuComponent implements OnInit {
               { label: 'Introduction 1', command: () => this.levelService.getLesson("lesson3-unit2","introduction")},
               { label: 'Story Time: When Amma Went to School', command: () => this.levelService.getLesson("lesson3-unit2","storytime")},
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-unit2","openstory")},
-              { label: 'Introduction 2', command: () => this.levelService.getLesson("lesson3-unit2","Introduction2")},
+              { label: 'Introduction 2', command: () => this.levelService.getLesson("lesson3-unit2","introduction2")},
               { label: 'Story Time: Brushing is No Fun!', command: () => this.levelService.getLesson("lesson3-unit2","storytime2")},
               { label: 'Word Play', command: () => this.levelService.getLesson("lesson3-unit2","wordplay")},
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-unit2","openstory2")},
@@ -104,7 +104,7 @@ export class LevelSidemenuComponent implements OnInit {
       {
         label: 'Lesson 4: Annual Haircut Day',
         items: [
-        { label: 'Lesson 4: What\'s in store today?', command: this.levelService.getLesson("unit2lesson4","introduction")},
+        { label: 'Lesson 4: What\'s in store today?', command: ()=> this.levelService.getLesson("unit2lesson4","introduction")},
         { label: 'Introduction 1', command: () => this.levelService.getLesson("unit2lesson4","introduction1")},
         { label: 'Story Time:Annual Haircut Day', command: () => this.levelService.getLesson("unit2lesson4","storytime1")},
         { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4","letstalk1")},

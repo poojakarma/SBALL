@@ -2,7 +2,7 @@
   "title": "Introduction",
   "id": "introduction",
   "data": [
-   
+
     {
         "type": "html",
         "content": "<br><blockquote>Congratulations! You have almost completed this unit of the English Beginner Course.</blockquote>"
@@ -11,13 +11,13 @@
         "type": "html",
         "content": "<blockquote>Today, we will review the key ideas covered in this unit.</blockquote>"
     },
-   
+
     {
         "type": "html",
         "content": "<ol><li>What new words and phrases did you learn?</li> <li>Which was your favourite lesson?</li></ul> <br><p>Click 'Discuss' to write your answer.</p> "
     },
     {
         "type": "audio",
-        "content": "assets/lesson10/Introduction/audio/instruction-1.mp3"
+        "content": "assets/lessons/lesson10/introduction/audio/instruction-1.mp3"
     }
 ]}

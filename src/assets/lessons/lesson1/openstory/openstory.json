@@ -8,7 +8,7 @@
       },
       {
           "type": "audio",
-          "content": "assets/lesson1/openstory/audio/instruction-1.mp3"
+          "content": "assets/lessons/lesson1/openstory/audio/instruction-1.mp3"
       },
       {
           "type": "html",
@@ -17,7 +17,7 @@
       
       {
         "type": "openStory",
-        "content": "assets/collection/lesson-1/open-story/Describe_the_action.csst"
+        "content": "assets/lessons/lesson1/openstory/Describe_the_action.csst"
       }    
   ]
   }

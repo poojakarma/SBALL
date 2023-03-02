@@ -8,13 +8,12 @@
       },
       {
           "type": "video",
-          "content": "assets/lesson3-unit2/storytime/video/1.mp4"
+          "content": "assets/lessons/lesson3-unit2/storytime/video/1.mp4"
       },
       {
           "type": "html",
           "content": "<br><blockquote>Replay the video if you wish to listen to the story again.<br>When you are ready, go to the next task.</blockquote>"
-      }   
+      }
   ]
   }
-  
-  
+
