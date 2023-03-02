@@ -15,19 +15,13 @@ export class ViewLessonComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  geth5pUrl(url) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
   getOpenStoryUrl(url) {
+    console.log("openstoryurl++++++++++++++++++++++")
     return this.sanitizer.bypassSecurityTrustResourceUrl("open-story/Open Story.html?file="+ this.locationStrategy.getBaseHref() + url);
   }
 
-  getRecordingUrl(){
-    return this.sanitizer.bypassSecurityTrustResourceUrl("lets-talk/Open Story.html")
-  }
-
-  getIframeUrl(url) {
+   getIframeUrl(url) {
+    console.log("getifr++++++++++++++++++++++")
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 

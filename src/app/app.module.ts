@@ -34,7 +34,7 @@ import { EditorComponent } from './views/pages/editor/editor.component';
     NoAccessComponent,
     HomeComponent,
     PlayerComponent,
-    EditorComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
@@ -64,7 +64,7 @@ import { EditorComponent } from './views/pages/editor/editor.component';
     DataService,
     ToastrService,AlertService,
 
-  
+
     // {
     //   provide: HIGHLIGHT_OPTIONS, // https://www.npmjs.com/package/ngx-highlightjs
     //   useValue: {

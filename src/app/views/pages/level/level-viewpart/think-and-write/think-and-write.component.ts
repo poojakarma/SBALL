@@ -15,7 +15,8 @@ export class ThinkAndWriteComponent implements OnInit {
   }
 
   getIframeUrl() {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(this.data.iframe);
+    
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.data);
   }
 
 }

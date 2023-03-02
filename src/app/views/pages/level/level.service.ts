@@ -12,14 +12,12 @@ export class LevelService {
   mechanic :any;
   constructor(private httpService: HttpClient) { }
 
-  getCollection(id){
-
-    //return collection;
-
+   getJson(id) {
+    return this.httpService.get('../../../../assets/'+ id + '/' +id + '.json');
   }
 
-  getJson(id) {
-    return this.httpService.get('../../../../assets/'+ id +'/topic1/'+id+'.json');
+  getCollection(){
+    return this.httpService.get('../../../../assets/jsons/collection.json');
   }
 
   getData(id){
@@ -27,10 +25,11 @@ export class LevelService {
   }
 
   getLesson(lessonId){
-
+    console.log(lessonId);
     this.getJson(lessonId).subscribe(res =>
       this.lessonData = res
     );
+    console.log(this.lessonData);
     return this.lessonData;
   }
 }

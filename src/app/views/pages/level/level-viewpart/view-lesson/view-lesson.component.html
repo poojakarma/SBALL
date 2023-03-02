@@ -22,24 +22,27 @@
       </video>
     </section>
 
-    <section *ngIf="item.type == 'h5p'">
-      <iframe [src]="geth5pUrl(item.content)" width="900" height="700" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="mcq image type"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    <section *ngIf="item.type == 'h5p'" [innerHTML]="item.content| safe: 'html'">
     </section>
 
-    <section *ngIf="item.type == 'openStory'">
-      <iframe width=100%; height="600;" [src]="getOpenStoryUrl(item.content)"></iframe>
-    </section>
 
     <section *ngIf="item.type == 'recording'">
-      <iframe width=100%; height="600;" [src]="getRecordingUrl()"></iframe>
+      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'iframe'">
-      <iframe width=100%; height="600;" [src]="getIframeUrl(item.content)"></iframe>
+      <iframe width=100%; height="600;" [src]="item.content | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'image'">
       <img [src]="item.content">
+    </section>
+
+    <section *ngIf="item.type == 'openstory'" [innerHTML]="item.content| safe: 'html'">
+    </section>
+
+    <section *ngIf="item.type == 'wordHelp'">
+      <app-word-help [data]="item.content"></app-word-help>
     </section>
   </div>
 </div>

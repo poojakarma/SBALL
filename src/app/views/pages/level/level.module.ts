@@ -19,6 +19,7 @@ import { PicturePlayComponent } from './level-viewpart/picture-play/picture-play
 import { ThinkAndWriteComponent } from './level-viewpart/think-and-write/think-and-write.component';
 import { WordHelpComponent } from './level-viewpart/word-help/word-help.component';
 import { ViewLessonComponent } from './level-viewpart/view-lesson/view-lesson.component';
+import { SafePipe } from '../../../safePipe';
 
 
 
@@ -51,7 +52,8 @@ const routes: Routes = [
     ThinkAndWriteComponent,
     WordHelpComponent,
     ViewLessonComponent,
-  
+    SafePipe
+
   ],
   imports: [
     CommonModule,
@@ -63,6 +65,7 @@ const routes: Routes = [
     DragDropModule,
     RouterModule.forChild(routes),
   ],
+  exports:[SafePipe]
   // schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class LevelModule { }
