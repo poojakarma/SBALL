@@ -33,7 +33,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 3: Whats going on?',
             items: [
-                { label: 'Introduction', command: () => this.levelService.getLesson("lesson1", "introduction")},
+                { label: 'Describing Actions: What\'s in store today?', command: () => this.levelService.getLesson("lesson1", "introduction")},
                 { label: 'Warm Up', command: () => this.levelService.getLesson("lesson1", "warmup")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay")},
                 { label: 'Open Story', command: () => this.levelService.getLesson("lesson1", "openstory")},
@@ -44,7 +44,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 5: Seasons and Weather',
             items: [
-                { label: 'Introduction', command: () =>this.levelService.getLesson("lesson5","introduction")},
+                { label: 'Weather: What\'s in store today?', command: () =>this.levelService.getLesson("lesson5","introduction")},
                 { label: 'Warm Up', command: () => this.levelService.getLesson("lesson5","warmUp")},
                 { label: 'Word Play', command: () => this.levelService.getLesson("lesson5","wordplay")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson5","pictureplay")},
@@ -56,7 +56,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 6: Find the Things',
             items: [
-                { label: 'Introduction', command: () => this.levelService.getLesson("lesson6","introduction")},
+                { label: 'Location: What\'s in store today?', command: () => this.levelService.getLesson("lesson6","introduction")},
                 { label: 'Warm Up', command: () => this.levelService.getLesson("lesson6","warmup")},
                 { label: 'Word Play', command: () => this.levelService.getLesson("lesson6","wordplay")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson6","pictureplay")},
@@ -68,7 +68,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 8: How do you feel today?',
             items: [
-                { label: 'Introduction', command: () => this.levelService.getLesson("lesson8","introduction")},
+                { label: 'Feelings: What\'s in store today?', command: () => this.levelService.getLesson("lesson8","introduction")},
                 { label: 'Warm Up', command: () => this.levelService.getLesson("lesson8","warmUp")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson8","pictureplay")},
                 { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson8","letstalk")},
@@ -79,6 +79,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 10: Review Time',
             items: [
+                { label: 'Review: What\'s in store today?', command: () => this.levelService.getLesson("lesson10","review")},
                 { label: 'Introduction', command: () => this.levelService.getLesson("lesson10","introduction")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson10","pictureplay")},
                 { label: 'Open Story', command: () => this.levelService.getLesson("lesson10","openstory")},
@@ -90,6 +91,7 @@ export class LevelSidemenuComponent implements OnInit {
         {
           label: 'Lesson 3: When Amma Went to School',
           items: [
+            { label: 'Lesson 3: What\'s in store today?', command: () => this.levelService.getLesson("lesson3-unit2","review")},
               { label: 'Introduction 1', command: () => this.levelService.getLesson("lesson3-unit2","introduction")},
               { label: 'Story Time: When Amma Went to School', command: () => this.levelService.getLesson("lesson3-unit2","storytime")},
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-unit2","openstory")},
