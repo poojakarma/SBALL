@@ -3,6 +3,10 @@
   "id": "introduction2",
   "data": [
     {
+      "type": "html",
+      "content": "<br><blockquote>School Time! Morning Time! Brushing Time!</blockquote>"
+  },
+    {
         "type": "image",
         "content": "assets/lessons/lesson3-unit2/introduction2/images/2.png"
       },
