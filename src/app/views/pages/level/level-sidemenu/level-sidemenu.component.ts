@@ -1,7 +1,7 @@
 import { Component, OnInit, Output } from '@angular/core';
 import {MenuItem} from 'primeng/api';
 import { LevelService } from '../level.service';
-import * as collection from '../../../../../assets/jsons/level-sidemenu.json'
+import * as collection from '../../../../../assets/jsons/level-sidemenu.json';
 
 
 @Component({
@@ -121,8 +121,8 @@ export class LevelSidemenuComponent implements OnInit {
       {
         label: 'Speak with Me',
         items: [
-        { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson1")},
-        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2")},
+        { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2")},
+        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson1")},
         { label: 'Learn with a Friend', command: () => this.levelService.getLesson("speakWithMe","lesson3")}
         ]
       }

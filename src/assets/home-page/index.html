@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <img class="img-fluid" height="64px" width="162.77px" src="./asset/header_logo.png" alt="header-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="#">Home<a>
+                                <a class="nav-link me-4 fs-14 fw-700" href="#">About</a>
+                                <a onclick="myFunction()" class="nav-link me-4 fs-14 fw-700">Language Lab</a>
+                                <a class="nav-link me-4 fs-14 fw-700">Explore</a>
+                                <a onclick="myFunction()" class="nav-link fs-14 fw-700 text-pink header-btn">LOGIN</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="ptb-80 position-relative">
+            <div class="follow-label">மொழிகள்</div>
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12 ps-5">
+                                <img width="567px" height="567px" class="img-fluid girls-size ps-5" src="./asset/girls.png" alt="girls">
+
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="map-img ps-5">
+                                    <div class="fw-700 fs-24">LET'S LEARN ENGLISH TOGETHER</div>
+                                    <div class="text-blue fs-64 fw-900">SpeakEnglish</div>
+                                    <div class="fs-64 fw-900 text-pink">Like an Expert.</div>
+                                    <div class="fs-14 mw-72">consectetur adipiscing elit duis tristique sollicitudin nibh
+                                        sit
+                                        amet commodo nulla facilisi nullam vehicula ipsum a arcu
+                                        cursus vitae congue</div>
+                                    <div class="mt-4">
+                                        <a class="anker-holder bg-blue text-white fs-14" href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-grey">
+            <div class="container">
+                <div class="d-flex circle-holder justify-content-between flex-wrap">
+                    <div onclick="myFunction()" class="blue-circle flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img class="img-fluid" height="53.33px" width="53.33px" src="./asset/earth.png" alt="">
+                            </div>
+                            <div class="text-white fs-16 fw-700 text-center mt-3">Communicative <br> English</div>
+                        </div>
+                    </div>
+                    <div class="blue-circle  flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img class="img-fluid" height="53.33" width="42.67" src="./asset/file-sve.png" alt="">
+                            </div>
+                            <div class="text-white fs-16 fw-700 mt-3"> Resource Material</div>
+                        </div>
+                    </div>
+                    <div class="blue-circle flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img class="img-fluid" height="45.33" width="58.67" src="./asset/open-book.png" alt="">
+                            </div>
+                            <div class="text-white fs-16 fw-700 mt-3">Interactive Material</div>
+                        </div>
+                    </div>
+                    <div class="blue-circle flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img class="img-fluid" height="53.33px" width="53.33px" src="./asset/connect.png"
+                                    alt="">
+                            </div>
+                            <div class="text-white fs-16 fw-700 mt-3">Connect</div>
+                        </div>
+                    </div>
+                    <div class="blue-circle flex-center">
+                        <div>
+                            <div class="flex-center">
+                                <img class="img-fluid" height="53.33" width="45.33" src="./asset/expert.png" alt="">
+                            </div>
+                            <div class="text-white fs-16 fw-700 mt-3">Expert corner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="item ptb-120">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-12">
+                        <div>
+                            <div class="text-blue fs-64 fw-900">How to skill the
+                                second language</div>
+                            <div class="mt-4">
+                                <a class="anker-holder bg-blue text-white fs-14" href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-sm-12">
+                        <img width="716px" height="453.39px" class="img-fluid" src="./asset/second-lang.png"
+                            alt="girls">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="item pb-120 ">
+                <div class="row">
+                    <div class="col-lg-7 col-sm-12">
+                        <img width="832px" height="486.99px" class="img-fluid" src="./asset/girls-carausel.png"
+                            alt="girls">
+                    </div>
+                    <div class="col-lg-4 ps-5 col-sm-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="text-blue fs-34 fw-700">Let’s Learn English Together</div>
+                                <div class="fs-14 mt-3 "> consectetur adipiscing elit duis tristique sollicitudin nibh
+                                    sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue
+                                </div>
+                                <div class="fs-14 mt-3 ">consectetur adipiscing elit duis tristique sollicitudin nibh
+                                    sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-blue ptb-250 position-relative">
+            <img class="shadow" src="./asset/shadow.png" alt="">
+            <div class="follow-label2">மொழிகள்</div>
+            <div class="contianer">
+                <div class="flex-center">
+                    <div class="text-center text-white fs-64 fw-900 mw-72">Boost your learning with Super language Lab
+                    </div>
+                </div>
+                <div class="flex-center">
+                    <div class="text-center text-white fs-20 mw-37 mt-3">Learning a language on Language Lab is completely free,
+                        but you can remove ads and support free education with Super.
+                        First 2 weeks on us!</div>
+                </div>
+                <div class="flex-center">
+                  <iframe scrolling="no" width=900; height="600;" allow="microphone" src="https://games.netskill.com"></iframe>
+                </div>
+                <br>
+                <div class="flex-center">
+                  <iframe scrolling="no" width=900; height="650;" allow="microphone" src="https://d2xtitd7ss55fi.cloudfront.net/index.html#/proto3/all?source=https://d2xtitd7ss55fi.cloudfront.net/db/content.json"></iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="ptb-120">
+            <div class="flex-center">
+                <div class="text-center fw-900 fs-48">Testimonials</div>
+            </div>
+            <div class="flex-center">
+                <div class="text-center fs-24">See what people are saying</div>
+            </div>
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-12">
+                                <img class="img-fluid sizetest" src="./asset/testimonial_girl.png" alt="girls">
+                            </div>
+                            <div class="col-lg-8 col-sm-12 mt-5">
+                                <img class="semi-colun" src="./asset/semi-colun.png" alt="semi-colun">
+                                <div class="ms-33 mw-74">
+                                    <div class="test-tit text-grey">Learning a     language on Language Lab is completely
+                                        free, but you can remove ads and support free education with Super. First 2
+                                        weeks on us!</div>
+                                    <div class="ms-30p">
+                                        <img class="semi-colun" src="./asset/semi-colun.png" alt="semi-colun">
+                                    </div>
+                                    <div class="text-blue fw-900 fs-24 mt-5">Nandini Iyer</div>
+                                    <div class="fs-16 text-grey">Student</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-grey ptb-120">
+            <div class="text-center text-blue fs-48 fw-900">Why Choose Mozhigal </div>
+            <div class="container pt-5">
+                <div class="d-flex justify-content-around flex-wrap gap-50">
+                    <div>
+                        <div class="bg-pink flex-center mb-4">
+                            <div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white mw-72 fs-24 min-h fw-700">Live online classes available 24/7</div>
+                                </div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white fs-16  mw-72 fw-700">Feel free to work and study with us.</div>
+                                </div>
+                                <div class="mt-5 flex-center">
+                                    <a class="anker-holder bg-white text-black fs-14" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-pink flex-center mb-4">
+                            <div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white mw-72 fs-24 min-h fw-700">Enhance your
+                                        learning experience</div>
+                                </div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white fs-16  mw-72 fw-700">Feel free to work and
+                                        study with us.</div>
+                                </div>
+                                <div class="mt-5 flex-center">
+                                    <a class="anker-holder bg-white text-black fs-14" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-pink flex-center mb-4">
+                            <div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white mw-72 fs-24 min-h fw-700">Practise with
+                                        online  activities
+                                        and materials</div>
+                                </div>
+                                <div class="flex-center">
+                                    <div class="text-center text-white fs-16  mw-72 fw-700">Feel free to work and
+                                        study with us.</div>
+                                </div>
+                                <div class="mt-5 flex-center">
+                                    <a class="anker-holder bg-white text-black fs-14" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-blue"></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        myFunction = function(){
+          window.parent.window.postMessage({"for":"user","data":"anything"}, '*')
+        }
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoHeight: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
