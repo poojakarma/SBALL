@@ -31,7 +31,7 @@
                         <a class="nav-link me-4 fs-14 fw-700"  href="">About</a>
                         <a class="nav-link me-4 fs-14 fw-700"  href="">Language Lab</a>
                         <a class="nav-link me-4 fs-14 fw-700"  href="">Explore</a>
-                        <a class="nav-link me-4 fs-14 fw-700"  href="./Tamil.html">Tamil/English</a>
+                        <a class="nav-link me-4 fs-14 fw-700"  href="./home.component.html">Tamil/English</a>
                         <a (click)="goToLevelAndRouting()" class="nav-link fs-14 fw-700 text-pink header-btn" href="">LOGIN</a>
                     </div>
                   </div>
@@ -59,9 +59,9 @@
                             <div class="fs-64 fw-900 text-pink">Like an Expert.</div>
                             <div class="fs-14 mw-72">“Mozhigal” aims to provide students with a conducive learning environment to enable them to become self paced independent learners and practice their language skills. This includes
                             providing students and teachers an online platform for language learning whichcontains many exciting activities and interactive digital tools to practice listening, speaking, reading and writing.</div>
-                            <!-- <div class="mt-4">
+                            <div class="mt-4">
                                 <a class="anker-holder bg-blue text-white fs-14" href="#">Read More</a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -343,7 +343,6 @@
 
     
         <script>
-            $(document).ready(function(){
             $('.moreless-button').click(function() {
             $('.moretext').slideToggle();
             if ($('.moreless-button').text() == "Read more") {
@@ -351,8 +350,7 @@
             } else {
             $(this).text("Read more")
             }
-             })
-            }
+             });
         </script>
 </body>
 
