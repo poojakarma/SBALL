@@ -27,11 +27,11 @@
 
 
     <section *ngIf="item.type == 'recording'">
-      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'iframe'">
-      <iframe scrolling="no" width=100%; height="600;" allow="microphone" [src]="item.content | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" scrolling="no" width=100%; height="600;" allow="microphone" [src]="item.content | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'image'">
@@ -47,7 +47,7 @@
     </section>
 
     <section *ngIf="item.type == 'openStory'" [innerHTML]="getOpenStoryHtml(item.content) | safe: 'html'">
-      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'wordHelp'">

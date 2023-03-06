@@ -108,7 +108,17 @@ body , html{
     mix-blend-mode:multiply;
     opacity: 0.2;
 }
-
+a{
+    text-decoration: none !important;
+}
+.moretext {
+    display: none;
+}
+.read-btn{
+    margin-top: 8px;
+    color: red;
+    cursor: pointer;
+}
 @media (min-width:1000px) {
     .container{
         max-width: 1450px !important;
