@@ -35,6 +35,17 @@ if (e.data.for=="user")
       $(this).text("Read more")
       }
        });
+       
+       $(document).ready(function(){
+        $("#eng").click(function(){
+          $(".tamil").fadeOut();
+           $(".english").fadeIn();
+        }); 
+        $("#de").click(function(){
+           $(".english").hide();
+          $(".tamil").show();
+        });
+        }); 
   }
   customOptions: OwlOptions = {
     loop: true,
