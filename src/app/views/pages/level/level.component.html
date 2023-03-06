@@ -11,9 +11,9 @@
           <div class="rounded bg-white border p-3">
             <app-view-lesson [lessonData]="levelService?.lessonData"></app-view-lesson>
           </div>
-          <!-- <div class="text-center">
-            <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="gotoNextpage()">Next</button>
-          </div> -->
+          <div class="text-center">
+            <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="levelService.playNextLesson()">Next</button>
+          </div>
             <!-- <app-level-viewpart></app-level-viewpart> -->
         </div>
     </div>
