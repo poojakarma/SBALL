@@ -8,11 +8,12 @@
             <app-level-sidemenu></app-level-sidemenu>
         </div>
         <div class="col-md-9">
-          <div class="rounded bg-white border p-3">
+          <div class="rounded bg-white border p-3" *ngIf="levelService?.currentLessonData">
             <app-view-lesson [lessonData]="levelService?.lessonData"></app-view-lesson>
           </div>
           <div class="text-center">
-            <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="levelService.playNextLesson()">Next</button>
+            <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="levelService.playNextLesson()" *ngIf="levelService?.currentLessonData">Next</button>
+            <button class="px-5 py-3 rounded bg-primary border-0 text-white fs-4 mt-5" (click)="levelService.playNextLesson()" *ngIf="!levelService?.currentLessonData">Start</button>
           </div>
             <!-- <app-level-viewpart></app-level-viewpart> -->
         </div>

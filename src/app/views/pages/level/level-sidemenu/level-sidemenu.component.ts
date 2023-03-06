@@ -115,12 +115,12 @@ export class LevelSidemenuComponent implements OnInit {
         items: [
         { label: 'Lesson 4: What\'s in store today?', command: ()=> this.levelService.getLesson("unit2lesson4","introduction"), id: "introduction", pid: "unit2lesson4"},
         { label: 'Introduction 1', command: () => this.levelService.getLesson("unit2lesson4","introduction1"), id: "introduction1", pid: "unit2lesson4"},
-        { label: 'Story Time:Annual Haircut Day', command: () => this.levelService.getLesson("unit2lesson4","storytime1"), id: "unit2lesson4", pid: "unit2lesson4"},
+        { label: 'Story Time:Annual Haircut Day', command: () => this.levelService.getLesson("unit2lesson4","storytime1"), id: "storytime1", pid: "unit2lesson4"},
         { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4","letstalk1"), id: "letstalk1", pid: "unit2lesson4"},
         { label: 'Open Story', command: () =>this.levelService.getLesson("unit2lesson4","openstory"), id: "openstory", pid: "unit2lesson4"},
         { label: 'Introduction 2', command: () => this.levelService.getLesson("unit2lesson4","introduction2"), id: "introduction2", pid: "unit2lesson4"},
         { label: 'Story Time:The Red Rain Coat', command: () => this.levelService.getLesson("unit2lesson4","storytime2"), id: "storytime2", pid: "unit2lesson4"},
-        { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4","letstalk2"), id: "introletstalk2duction1", pid: "unit2lesson4"},
+        { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4","letstalk2"), id: "letstalk2", pid: "unit2lesson4"},
         { label: 'Think and Write', command: () => this.levelService.getLesson("unit2lesson4","thinkandwrite"), id: "thinkandwrite", pid: "unit2lesson4"},
         { label: 'Word Help', command: () => this.levelService.getLesson("unit2lesson4","wordhelp"), id: "wordhelp", pid: "unit2lesson4"}
         ]
@@ -130,7 +130,7 @@ export class LevelSidemenuComponent implements OnInit {
         id:"speakWithMe",
         items: [
         { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson1"), id: "lesson1", pid: "speakWithMe"},
-        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2"), id: "lesson1", pid: "speakWithMe"},
+        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2"), id: "lesson2", pid: "speakWithMe"},
         { label: 'Learn with a Friend', command: () => this.levelService.getLesson("speakWithMe","lesson3"), id: "lesson3", pid: "speakWithMe"}
         ]
       }

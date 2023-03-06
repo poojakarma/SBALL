@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,11 +29,11 @@
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="">Home</a>
                         <a class="nav-link me-4 fs-14 fw-700"  href="">About</a>
-                        <a class="nav-link me-4 fs-14 fw-700"  href="">Language Lab</a>
+                        <a routerLink="/level" class="nav-link me-4 fs-14 fw-700"  href="">Language Lab</a>
                         <a class="nav-link me-4 fs-14 fw-700"  href="">Explore</a>
                         <a class="nav-link fs-14 fw-700" id="eng">English &nbsp; /</a>
                         <a class="nav-link me-4 fs-14 fw-700" id="de">tamil</a>
-                        <a (click)="goToLevelAndRouting()" class="nav-link fs-14 fw-700 text-pink header-btn" href="">LOGIN</a>
+                        <a routerLink="/level" class="nav-link fs-14 fw-700 text-pink header-btn" href="">LOGIN</a>
                     </div>
                   </div>
                 </div>
@@ -58,8 +58,8 @@
                             <div class="english fw-700 fs-24">
                                 <div>LET'S LEARN ENGLISH TOGETHER</div>
                               </div>
-                            <div class="tamil fw-700 fs-24"> 
-                                <div>ஒன்றாக ஆங்கிலம் கற்போம்</div> 
+                            <div class="tamil fw-700 fs-24">
+                                <div>ஒன்றாக ஆங்கிலம் கற்போம்</div>
                             </div>
                             <div class="text-blue fs-64 fw-900">SpeakEnglish</div>
                             <div class="fs-64 fw-900 text-pink">Like an Expert.</div>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-            </ng-template>   
+            </ng-template>
           </owl-carousel-o>
     </div>
 </div>
@@ -186,7 +186,7 @@
                                 <div class="fs-14 mt-3 ">consectetur adipiscing elit duis tristique sollicitudin nibh
                                     sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue
                                 </div>
-                      </ng-template>   
+                      </ng-template>
                     </owl-carousel-o>
                 </div>
             </div>
@@ -205,32 +205,32 @@
             <div class="contianer">
                 <div class="flex-center">
                     <div class="text-center text-white fs-48 fw-900 mw-72">Boost your learning with Super language Lab
-                    </div> 
+                    </div>
                 </div>
             </div>
-            
+
                 <div class="contianer">
                     <owl-carousel-o [options]="customOptions">
                         <ng-template carouselSlide>
-                            <div class="flex-center mt-3"> 
+                            <div class="flex-center mt-3">
                                 <div class="iframe-container">
                                     <iframe width="500px" height="500px" class="responsive-iframe" src="https://games.netskill.com" allow="camera; microphone" frameborder="0"></iframe>
                                 </div>
-                                
+
                             </div>
                         </ng-template>
                         <ng-template carouselSlide>
                             <div class="flex-center mt-3">
                                 <div class="iframe-container">
-                                    <iframe class="responsive-iframe" src="https://d2xtitd7ss55fi.cloudfront.net/index.html#/proto3/all?source=https://d2xtitd7ss55fi.cloudfront.net/db/content.json" allow="camera; microphone" frameborder="0"></iframe>
+                                    <iframe class="responsive-iframe" src="https://d2xtitd7ss55fi.cloudfront.net/index.html#/proto3/all?source=https://d2xtitd7ss55fi.cloudfront.net/db/proto3.json" allow="camera; microphone" frameborder="0"></iframe>
                                 </div>
                             </div>
-                        </ng-template>   
+                        </ng-template>
                       </owl-carousel-o>
                 </div>
-            
-            
-           
+
+
+
         </div>
     </section>
 
@@ -265,10 +265,10 @@
 
                         </div>
                     </div>
-                  </ng-template>  
-                 
+                  </ng-template>
+
                 </owl-carousel-o>
-           
+
             </div>
         </div>
     </section>
