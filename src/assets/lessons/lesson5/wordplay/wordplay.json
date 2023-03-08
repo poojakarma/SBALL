@@ -17,9 +17,9 @@
     {
       "type": "images",
       "content": [
-        {"src": "assets/lessons/lesson5/wordplay/image/img1.jpg","name":"Picture1"},
-        {"src": "assets/lessons/lesson5/wordplay/image/img2.jpg","name":"Picture2"},
-        {"src": "assets/lessons/lesson5/wordplay/image/img3.jpg","name":"Picture3"}
+        {"src": "assets/lessons/lesson5/wordplay/image/img1.jpg","name":"Picture1","width":"300","height":"300"},
+        {"src": "assets/lessons/lesson5/wordplay/image/img2.jpg","name":"Picture2","width":"300","height":"300"},
+        {"src": "assets/lessons/lesson5/wordplay/image/img3.jpg","name":"Picture3","width":"300","height":"300"}
         ]
     },
     {

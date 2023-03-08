@@ -33,8 +33,9 @@ export class LevelSidemenuComponent implements OnInit {
         {
             label: 'Lesson 3: Whats going on?',
             items: [
-                { label: 'Describing Actions: What\'s in store today?', command: () => this.levelService.getLesson("lesson1", "introduction")},
-                { label: 'Warm Up', command: () => this.levelService.getLesson("lesson1", "warmup")},
+                { label: 'Describing Actions: What\'s in store today?', command: () => this.levelService.getLesson("lesson1", "introduction"),
+               },
+                { label: 'Warm Up'  ,command: () => this.levelService.getLesson("lesson1", "warmup")},
                 { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay")},
                 { label: 'Open Story', command: () => this.levelService.getLesson("lesson1", "openstory")},
                 { label: 'Think and Write', command: () => this.levelService.getLesson("lesson1", "thinkandwrite")},

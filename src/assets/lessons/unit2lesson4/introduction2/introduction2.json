@@ -5,7 +5,9 @@
 
         {
             "type": "image",
-            "content": "assets/lessons/unit2lesson4/introduction2/image/img1.png"
+            "content": "assets/lessons/unit2lesson4/introduction2/image/img1.png",
+            "height": "400",
+            "width":"600"
           },
 
       {

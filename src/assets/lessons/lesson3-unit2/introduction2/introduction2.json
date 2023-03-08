@@ -8,7 +8,9 @@
   },
     {
         "type": "image",
-        "content": "assets/lessons/lesson3-unit2/introduction2/images/2.png"
+        "content": "assets/lessons/lesson3-unit2/introduction2/images/2.png",
+        "height": "900",
+        "width":"1300"
       },
 
     {
