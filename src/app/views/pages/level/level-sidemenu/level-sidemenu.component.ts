@@ -30,6 +30,16 @@ export class LevelSidemenuComponent implements OnInit {
     // });
 
     this.Items = [
+      {
+        label: 'Speak with Me',
+        id:"speakWithMe",
+        expanded:true,
+        items: [
+        { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson1"), id: "lesson1", pid: "speakWithMe"},
+        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2"), id: "lesson2", pid: "speakWithMe"},
+        { label: 'Learn with a Friend', command: () => this.levelService.getLesson("speakWithMe","lesson3"), id: "lesson3", pid: "speakWithMe"}
+        ]
+      },
         {
             label: 'Lesson 3: Whats going on?',
             id: 'lesson1',
@@ -123,15 +133,6 @@ export class LevelSidemenuComponent implements OnInit {
         { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4","letstalk2"), id: "letstalk2", pid: "unit2lesson4"},
         { label: 'Think and Write', command: () => this.levelService.getLesson("unit2lesson4","thinkandwrite"), id: "thinkandwrite", pid: "unit2lesson4"},
         { label: 'Word Help', command: () => this.levelService.getLesson("unit2lesson4","wordhelp"), id: "wordhelp", pid: "unit2lesson4"}
-        ]
-      },
-      {
-        label: 'Speak with Me',
-        id:"speakWithMe",
-        items: [
-        { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson1"), id: "lesson1", pid: "speakWithMe"},
-        { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe","lesson2"), id: "lesson2", pid: "speakWithMe"},
-        { label: 'Learn with a Friend', command: () => this.levelService.getLesson("speakWithMe","lesson3"), id: "lesson3", pid: "speakWithMe"}
         ]
       }
     ]
