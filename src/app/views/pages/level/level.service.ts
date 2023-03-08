@@ -41,7 +41,7 @@ export class LevelService {
       index++;
       this.currentLessonData = this.currentLessonData ? this.currentLessonData : {id: "introduction", pid: "lesson1"}
       if(this.currentLessonData.id === lesson.id && this.currentLessonData.pid === lesson.pid){
-        nextId = this.nextLessonData[index+1];
+        nextId = this.nextLessonData[index];
       }
 
     })
