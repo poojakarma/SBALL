@@ -632,12 +632,7 @@ th[sortable].desc:after {
   background-size: cover;
   background-position: left;
 }
-#lesson1{
-  color: #662D91 !important;
-  font-weight: 700 !important;
-  font-size: 14px !important;
-  line-height: 17px !important;
-}
+
 .sidepanel .pi-chevron-right:before, .sidepanel .pi-angle-right:before {
   content: "\f27b";
   font-family: bootstrap-icons !important;
@@ -663,4 +658,10 @@ th[sortable].desc:after {
   color: #fff;
   font-weight: 900;
   margin-top: -14px;
+}
+li a[aria-expanded="true"] span{
+  color: #662D91 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
 }
