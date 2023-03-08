@@ -39,9 +39,9 @@ export class LevelService {
     let nextId = '';
     this.nextLessonData.forEach(lesson => {
       index++;
-      this.currentLessonData = this.currentLessonData ? this.currentLessonData : {id: "introduction", pid: "lesson1"}
+      this.currentLessonData = this.currentLessonData ? this.currentLessonData : {id: "lesson1", pid: "speakWithMe"}
       if(this.currentLessonData.id === lesson.id && this.currentLessonData.pid === lesson.pid){
-        nextId = this.nextLessonData[index+1];
+        nextId = this.nextLessonData[index];
       }
 
     })
