@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { TelemetryService } from '../../../telemetry.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,17 +9,16 @@ export class LevelService {
   viewPage = 1;
   lessonData = {};
   data = '';
+  currentLessonData: any;
+  nextLessonData: any;
+  nextLessonPath = '';
+  nextLessonId =  '';
   path;
   mechanic :any;
-  constructor(private httpService: HttpClient) { }
+  constructor(private httpService: HttpClient, public telemetryService: TelemetryService) { }
 
   getJson(basePath,id) {
     return this.httpService.get('../../../../assets/lessons/'+ basePath +'/'+id+'/'+id+'.json');
-    // this.httpService.get('../../../../assets/lessons/lesson1/openstory/openstory.json');
-    // this.httpService.get('../../../../assets/lessons/lesson1/pictureplay/pictureplay.json');
-    // this.httpService.get('../../../../assets/lessons/lesson1/thinkandwrite/thinkandwrite.json');
-    // this.httpService.get('../../../../assets/lessons/lesson1/warmup/warmup.json');
-    // this.httpService.get('../../../../assets/lessons/lesson1/wordhelp/wordhelp.json');
   }
 
   getCollection(){
@@ -29,7 +29,28 @@ export class LevelService {
 
   }
 
+  playNextLesson(){
+    this.currentLessonData = this.getNextLesson();
+    this.getLesson(this.currentLessonData.pid, this.currentLessonData.id);
+  }
+
+  getNextLesson(){
+    let index = 0;
+    let nextId = '';
+    this.nextLessonData.forEach(lesson => {
+      index++;
+      this.currentLessonData = this.currentLessonData ? this.currentLessonData : {id: "introduction", pid: "lesson1"}
+      if(this.currentLessonData.id === lesson.id && this.currentLessonData.pid === lesson.pid){
+        nextId = this.nextLessonData[index];
+      }
+
+    })
+    return nextId;
+  }
+
   getLesson(basePath,lessonId){
+    this.currentLessonData = {id: lessonId, pid: basePath};
+    this.telemetryService.interact(lessonId);
     console.log(lessonId);
     localStorage.setItem("basePath", JSON.stringify(basePath));
     localStorage.setItem("lessonId", JSON.stringify(lessonId));

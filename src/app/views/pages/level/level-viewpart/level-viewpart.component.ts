@@ -397,209 +397,209 @@ export class LevelViewpartComponent implements OnInit {
     console.log(this.jsonList,'this.jsonList')
   }
 
-   gotoNextpage(){
-    let basePath = JSON.parse(localStorage.getItem("basePath"));
-    let lessonId = JSON.parse(localStorage.getItem("lessonId"));
-    console.log(lessonId,'lessonId');
-    console.log(basePath,'basePath');
+  //  gotoNextpage(){
+  //   let basePath = JSON.parse(localStorage.getItem("basePath"));
+  //   let lessonId = JSON.parse(localStorage.getItem("lessonId"));
+  //   console.log(lessonId,'lessonId');
+  //   console.log(basePath,'basePath');
     
     
 
-    if(basePath=="lesson1"){
-      if (lessonId=="introduction") {
-        this.levelService.getLesson("lesson1","warmup");
-      }
-      if (lessonId=="warmup") {
-        this.levelService.getLesson("lesson1","pictureplay");
-      }
-      if (lessonId=="pictureplay") {
-        this.levelService.getLesson("lesson1","openstory");
-      }
-      if (lessonId=="openstory") {
-        this.levelService.getLesson("lesson1","thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson("lesson1","wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("lesson5","introduction");
-      }
+  //   if(basePath=="lesson1"){
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson("lesson1","warmup");
+  //     }
+  //     if (lessonId=="warmup") {
+  //       this.levelService.getLesson("lesson1","pictureplay");
+  //     }
+  //     if (lessonId=="pictureplay") {
+  //       this.levelService.getLesson("lesson1","openstory");
+  //     }
+  //     if (lessonId=="openstory") {
+  //       this.levelService.getLesson("lesson1","thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson("lesson1","wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("lesson5","introduction");
+  //     }
 
-    }
-    if(basePath=="lesson5"){
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"warmUp");
-      }
-      if (lessonId=="warmUp") {
-        this.levelService.getLesson(basePath,"wordplay");
-      }
-      if (lessonId=="wordplay") {
-        this.levelService.getLesson(basePath,"pictureplay");
-      }
-      if (lessonId=="pictureplay") {
-        this.levelService.getLesson(basePath,"letstalk");
-      }
-      if (lessonId=="letstalk") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("lesson6","introduction");
-      }
+  //   }
+  //   if(basePath=="lesson5"){
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"warmUp");
+  //     }
+  //     if (lessonId=="warmUp") {
+  //       this.levelService.getLesson(basePath,"wordplay");
+  //     }
+  //     if (lessonId=="wordplay") {
+  //       this.levelService.getLesson(basePath,"pictureplay");
+  //     }
+  //     if (lessonId=="pictureplay") {
+  //       this.levelService.getLesson(basePath,"letstalk");
+  //     }
+  //     if (lessonId=="letstalk") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("lesson6","introduction");
+  //     }
 
-    }
-    if(basePath=="lesson6"){
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"warmup");
-      }
-      if (lessonId=="warmup") {
-        this.levelService.getLesson(basePath,"wordplay");
-      }
-      if (lessonId=="wordplay") {
-        this.levelService.getLesson(basePath,"pictureplay");
-      }
-      if (lessonId=="pictureplay") {
-        this.levelService.getLesson(basePath,"letstalk");
-      }
-      if (lessonId=="letstalk") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("lesson8","introduction");
-      }
+  //   }
+  //   if(basePath=="lesson6"){
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"warmup");
+  //     }
+  //     if (lessonId=="warmup") {
+  //       this.levelService.getLesson(basePath,"wordplay");
+  //     }
+  //     if (lessonId=="wordplay") {
+  //       this.levelService.getLesson(basePath,"pictureplay");
+  //     }
+  //     if (lessonId=="pictureplay") {
+  //       this.levelService.getLesson(basePath,"letstalk");
+  //     }
+  //     if (lessonId=="letstalk") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("lesson8","introduction");
+  //     }
 
-    }
+  //   }
 
-    if(basePath=="lesson8"){
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"warmUp");
-      }
-      if (lessonId=="warmUp") {
-        this.levelService.getLesson(basePath,"pictureplay");
-      }
-      if (lessonId=="pictureplay") {
-        this.levelService.getLesson(basePath,"letstalk");
-      }
-      if (lessonId=="letstalk") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("lesson10","review");
-      }
+  //   if(basePath=="lesson8"){
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"warmUp");
+  //     }
+  //     if (lessonId=="warmUp") {
+  //       this.levelService.getLesson(basePath,"pictureplay");
+  //     }
+  //     if (lessonId=="pictureplay") {
+  //       this.levelService.getLesson(basePath,"letstalk");
+  //     }
+  //     if (lessonId=="letstalk") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("lesson10","review");
+  //     }
 
-    }
-    if(basePath=="lesson10"){
-      if (lessonId=="review") {
-        this.levelService.getLesson(basePath,"introduction");
-      } 
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"pictureplay");
-      }
-      if (lessonId=="pictureplay") {
-        this.levelService.getLesson(basePath,"openstory");
-      }
-      if (lessonId=="openstory") {
-        this.levelService.getLesson(basePath,"letstalk");
-      }
-      if (lessonId=="letstalk") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("lesson3-unit2","review");
-      }
+  //   }
+  //   if(basePath=="lesson10"){
+  //     if (lessonId=="review") {
+  //       this.levelService.getLesson(basePath,"introduction");
+  //     } 
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"pictureplay");
+  //     }
+  //     if (lessonId=="pictureplay") {
+  //       this.levelService.getLesson(basePath,"openstory");
+  //     }
+  //     if (lessonId=="openstory") {
+  //       this.levelService.getLesson(basePath,"letstalk");
+  //     }
+  //     if (lessonId=="letstalk") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("lesson3-unit2","review");
+  //     }
 
-    }
+  //   }
 
-    if(basePath=="lesson3-unit2"){
-      if (lessonId=="review") {
-        this.levelService.getLesson(basePath,"introduction");
-      } 
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"storytime");
-      }
-      if (lessonId=="storytime") {
-        this.levelService.getLesson(basePath,"openstory");
-      }
-      if (lessonId=="openstory") {
-        this.levelService.getLesson(basePath,"introduction2");
-      }
-      if (lessonId=="introduction2") {
-        this.levelService.getLesson(basePath,"storytime2");
-      }
-      if (lessonId=="storytime2") {
-        this.levelService.getLesson(basePath,"wordplay");
-      }
-      if (lessonId=="wordplay") {
-        this.levelService.getLesson(basePath,"openstory2");
-      }
-      if (lessonId=="openstory2") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("unit2lesson4","introduction");
-      }
+  //   if(basePath=="lesson3-unit2"){
+  //     if (lessonId=="review") {
+  //       this.levelService.getLesson(basePath,"introduction");
+  //     } 
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"storytime");
+  //     }
+  //     if (lessonId=="storytime") {
+  //       this.levelService.getLesson(basePath,"openstory");
+  //     }
+  //     if (lessonId=="openstory") {
+  //       this.levelService.getLesson(basePath,"introduction2");
+  //     }
+  //     if (lessonId=="introduction2") {
+  //       this.levelService.getLesson(basePath,"storytime2");
+  //     }
+  //     if (lessonId=="storytime2") {
+  //       this.levelService.getLesson(basePath,"wordplay");
+  //     }
+  //     if (lessonId=="wordplay") {
+  //       this.levelService.getLesson(basePath,"openstory2");
+  //     }
+  //     if (lessonId=="openstory2") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("unit2lesson4","introduction");
+  //     }
 
-    }
+  //   }
 
-    if(basePath=="unit2lesson4"){
-      if (lessonId=="introduction") {
-        this.levelService.getLesson(basePath,"introduction1");
-      } 
-      if (lessonId=="introduction1") {
-        this.levelService.getLesson(basePath,"storytime1");
-      }
-      if (lessonId=="storytime1") {
-        this.levelService.getLesson(basePath,"letstalk1");
-      }
-      if (lessonId=="letstalk1") {
-        this.levelService.getLesson(basePath,"openstory");
-      }
-      if (lessonId=="openstory") {
-        this.levelService.getLesson(basePath,"introduction2");
-      }
-      if (lessonId=="introduction2") {
-        this.levelService.getLesson(basePath,"storytime2");
-      }
-      if (lessonId=="storytime2") {
-        this.levelService.getLesson(basePath,"letstalk2");
-      }
-      if (lessonId=="letstalk2") {
-        this.levelService.getLesson(basePath,"thinkandwrite");
-      }
-      if (lessonId=="thinkandwrite") {
-        this.levelService.getLesson(basePath,"wordhelp");
-      }
-      if (lessonId=="wordhelp") {
-        this.levelService.getLesson("speakWithMe","lesson1");
-      }
+  //   if(basePath=="unit2lesson4"){
+  //     if (lessonId=="introduction") {
+  //       this.levelService.getLesson(basePath,"introduction1");
+  //     } 
+  //     if (lessonId=="introduction1") {
+  //       this.levelService.getLesson(basePath,"storytime1");
+  //     }
+  //     if (lessonId=="storytime1") {
+  //       this.levelService.getLesson(basePath,"letstalk1");
+  //     }
+  //     if (lessonId=="letstalk1") {
+  //       this.levelService.getLesson(basePath,"openstory");
+  //     }
+  //     if (lessonId=="openstory") {
+  //       this.levelService.getLesson(basePath,"introduction2");
+  //     }
+  //     if (lessonId=="introduction2") {
+  //       this.levelService.getLesson(basePath,"storytime2");
+  //     }
+  //     if (lessonId=="storytime2") {
+  //       this.levelService.getLesson(basePath,"letstalk2");
+  //     }
+  //     if (lessonId=="letstalk2") {
+  //       this.levelService.getLesson(basePath,"thinkandwrite");
+  //     }
+  //     if (lessonId=="thinkandwrite") {
+  //       this.levelService.getLesson(basePath,"wordhelp");
+  //     }
+  //     if (lessonId=="wordhelp") {
+  //       this.levelService.getLesson("speakWithMe","lesson1");
+  //     }
 
-    }
+  //   }
 
-    if(basePath=="speakWithMe"){
-      if (lessonId=="lesson1") {
-        this.levelService.getLesson(basePath,"lesson2");
-      } 
-      if (lessonId=="lesson2") {
-        this.levelService.getLesson(basePath,"lesson3");
-      }
-      if (lessonId=="lesson3") {
-        this.levelService.getLesson("lesson1","introduction");
-      }
-    }
+  //   if(basePath=="speakWithMe"){
+  //     if (lessonId=="lesson1") {
+  //       this.levelService.getLesson(basePath,"lesson2");
+  //     } 
+  //     if (lessonId=="lesson2") {
+  //       this.levelService.getLesson(basePath,"lesson3");
+  //     }
+  //     if (lessonId=="lesson3") {
+  //       this.levelService.getLesson("lesson1","introduction");
+  //     }
+  //   }
 
 
   //   if (basePath) {
@@ -622,6 +622,6 @@ export class LevelViewpartComponent implements OnInit {
      //console.log(this.levelService.getJson);
      //console.log(this.levelService.getLesson("lesson6","pictureplay"));
      
-  }
+  //}
 
 }

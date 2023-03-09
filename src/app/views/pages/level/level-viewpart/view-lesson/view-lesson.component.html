@@ -27,18 +27,18 @@
 
 
     <section *ngIf="item.type == 'recording'">
-      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'iframe'">
-      <iframe width=100%; height="600;" allow="microphone" [src]="item.content | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" scrolling="no" width=100%; height="600;" allow="microphone" [src]="item.content | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'image'">
       <img width="{{item.width}}" height="{{item.height}}"  [src]="item.content">
     </section>
 
-    
+
     <section *ngIf="item.type == 'images'">
      <ng-container  *ngFor="let image of item.content;">
       <img width="{{image.width}}" height="{{image.height}}"  src="{{image.src}}"> &nbsp;&nbsp;
@@ -47,7 +47,7 @@
     </section>
 
     <section *ngIf="item.type == 'openStory'" [innerHTML]="getOpenStoryHtml(item.content) | safe: 'html'">
-      <iframe width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
+      <iframe allow="microphone" width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
 
     <section *ngIf="item.type == 'wordHelp'">
