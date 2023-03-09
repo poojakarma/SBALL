@@ -397,7 +397,9 @@ export class LevelViewpartComponent implements OnInit {
     console.log(this.jsonList,'this.jsonList')
   }
 
- 
+   gotoNextpage(){
+    this.levelService.viewPage = this.levelService.viewPage + 1;
+   }
 
 
 
