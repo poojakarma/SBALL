@@ -15,16 +15,33 @@
 
       "type": "images",
       "content": [
-        {"src": "assets/lessons/lesson8/letstalk/image/img1.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img2.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img3.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img4.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img5.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img6.png"},
-        {"src": "assets/lessons/lesson8/letstalk/image/img7.png"}
+        {"src": "assets/lessons/lesson8/letstalk/image/img1.png","width":"200","height":"200"},
+        {"src": "assets/lessons/lesson8/letstalk/image/img2.png","width":"200","height":"200"}
+      ]
+    },
+    
+    {
+
+      "type": "images",
+      "content": [
+       
+        {"src": "assets/lessons/lesson8/letstalk/image/img3.png","width":"200","height":"200"},
+        {"src": "assets/lessons/lesson8/letstalk/image/img4.png","width":"200","height":"200"}
+      ]
+    },
+    {
+
+      "type": "images",
+      "content": [
+        {"src": "assets/lessons/lesson8/letstalk/image/img5.png","width":"200","height":"200"},
+        {"src": "assets/lessons/lesson8/letstalk/image/img6.png","width":"200","height":"200"},
+        {"src": "assets/lessons/lesson8/letstalk/image/img7.png","width":"200","height":"200"}
 
       ]
     },
+
+
+
       {
         "type": "html",
         "content": "<br><blockquote>Discuss with your partner and write a dialogue for the chosen option.<br> </blockquote>"
