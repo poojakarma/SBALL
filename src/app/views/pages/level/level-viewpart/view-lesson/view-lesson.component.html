@@ -46,6 +46,39 @@
      </ng-container>
     </section>
 
+    <section *ngIf="item.type == 'options'">
+      <div class="d-flex justify-content-around">
+        <ng-container  *ngFor="let ele of item.content;">
+          <div ngClass="optionSwitch ? opt-unselected : opt-selected">
+            <div *ngIf="ele.imageSrc"><img width="200" height="200"  src="{{ele.imageSrc}}"> &nbsp;&nbsp;
+            <div class="mt-2"><b>{{ele.name}}</b></div>
+            </div>
+            <div *ngIf="!ele.imageSrc">
+              <p>{{ele.name}}</p>
+            </div>
+            <div *ngIf="ele.audioSrc">
+              <audio class="w-100 mt-4" controls >
+                <source [src]="ele.audioSrc" type="audio/mp3">
+              Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      <ng-container *ngFor="let ele of item.content;">
+        <div class="mt-5" *ngIf="!optionSwitch">
+          <div class="mt-2" [innerHTML]="ele.answerText">
+          </div>
+          <div *ngIf="ele.modelAudioSrc">
+            <audio class="w-100 mt-4" controls >
+              <source [src]="ele.modelAudioSrc" type="audio/mp3">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </ng-container>
+     </section>
+
     <section *ngIf="item.type == 'openStory'" [innerHTML]="getOpenStoryHtml(item.content) | safe: 'html'">
       <iframe allow="microphone" width=100%; height="600;" [src]="'lets-talk/Open Story.html' | safe: 'resourceUrl'"></iframe>
     </section>
