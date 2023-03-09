@@ -12,7 +12,7 @@
     },
     {
         "type": "html",
-        "content": "<br><blockquote> <div>Click ► to begin.</div>  <p><br> தொடங்க ► கிளிக் செய்யவும்.</p>  </blockquote>"
+        "content": "<br><blockquote> <div>Click ► to begin.</div><p><br> தொடங்க ► கிளிக் செய்யவும்.</p>  </blockquote>"
     },
     {
         "type": "video",
