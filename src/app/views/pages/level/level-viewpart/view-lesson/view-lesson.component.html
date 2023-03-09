@@ -41,8 +41,8 @@
 
     <section *ngIf="item.type == 'images'">
      <ng-container  *ngFor="let image of item.content;">
-      <img width="300" height="300"  src="{{image.src}}">
-      <p>{{image.name}}</p>
+      <img width="{{image.width}}" height="{{image.height}}"  src="{{image.src}}"> &nbsp;&nbsp;
+      <!-- <p>{{image.name}}</p> -->
      </ng-container>
     </section>
 
@@ -53,5 +53,8 @@
     <section *ngIf="item.type == 'wordHelp'">
       <app-word-help [data]="item.content"></app-word-help>
     </section>
+
+
+
   </div>
 </div>
