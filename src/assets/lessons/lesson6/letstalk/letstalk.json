@@ -2,10 +2,11 @@
     "title": "Let's Talk",
     "id": "letstalk",
     "data": [
-        {
+          {
             "type": "image",
             "content": "assets/lessons/lesson6/letstalk/images/1.jpg"
           },
+
 
       {
           "type": "html",
@@ -20,6 +21,8 @@
         "type": "recording",
         "content": ""
       }
+
+      
   ]
   }
 
