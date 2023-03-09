@@ -1,0 +1,14 @@
+{
+  "title": "Introduction 1",
+  "id": "introduction",
+  "data": [
+    {
+        "type": "image",
+        "content": "assets/lessons/lesson2-unit2/introduction/images/img1.png"
+      },
+
+    {
+        "type": "audio",
+        "content": "assets/lessons/lesson2-unit2/introduction/audio/audio1.mp3"
+    }
+]}
