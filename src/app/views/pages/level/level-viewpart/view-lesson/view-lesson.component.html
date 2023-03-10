@@ -59,7 +59,7 @@
             </div>
           </div>
         </ng-container>
-        <ng-container>
+        <ng-container *ngIf="item.content[1]">
           <div [ngClass]="!option2Selected ? 'opt-unselected' : 'opt-selected'" (click)="switchModelAnswer('option2')">
             <div *ngIf="item.content[1].imageSrc"><img width="200" height="200"  src="{{item.content[1].imageSrc}}"> &nbsp;&nbsp;
             <div class="mt-2"><b>{{item.content[1].name}}</b></div>
@@ -75,7 +75,7 @@
             </div>
           </div>
         </ng-container>
-        <ng-container>
+        <ng-container *ngIf="item.content[2]">
           <div [ngClass]="!option3Selected ? 'opt-unselected' : 'opt-selected'" (click)="switchModelAnswer('option3')">
             <div *ngIf="item.content[2].imageSrc"><img width="200" height="200"  src="{{item.content[2].imageSrc}}"> &nbsp;&nbsp;
             <div class="mt-2"><b>{{item.content[2].name}}</b></div>
@@ -98,7 +98,7 @@
           <div><b>Model Answer: </b></div>
         <div class="d-flex justify-content-around">
           <ng-container>
-            <div *ngIf="item.content[0].imageSrc"><img width="200" height="200"  src="{{item.content[0].imageSrc}}"> &nbsp;&nbsp;</div>
+            <div *ngIf="item.content[0].modelImageSrc"><img width="200" height="200"  src="{{item.content[0].modelImageSrc}}"> &nbsp;&nbsp;</div>
             <div class="mt-5">
               <div *ngIf="item.content[0].modelAudioSrc">
                 <audio class="w-30 mt-4" controls >
@@ -118,7 +118,7 @@
           <div><b>Model Answer: </b></div>
         <div class="d-flex justify-content-around">
           <ng-container>
-            <div *ngIf="item.content[1].imageSrc"><img width="200" height="200"  src="{{item.content[1].imageSrc}}"> &nbsp;&nbsp;</div>
+            <div *ngIf="item.content[1].modelImageSrc"><img width="200" height="200"  src="{{item.content[1].modelImageSrc}}"> &nbsp;&nbsp;</div>
             <div class="mt-5">
               <div *ngIf="item.content[1].modelAudioSrc">
                 <audio class="w-30 mt-4" controls >
@@ -138,7 +138,7 @@
           <div><b>Model Answer: </b></div>
         <div class="d-flex justify-content-around">
           <ng-container>
-            <div *ngIf="item.content[2].imageSrc"><img width="200" height="200"  src="{{item.content[2].imageSrc}}"> &nbsp;&nbsp;</div>
+            <div *ngIf="item.content[2].modelImageSrc"><img width="200" height="200"  src="{{item.content[2].modelImageSrc}}"> &nbsp;&nbsp;</div>
             <div class="mt-5">
               <div *ngIf="item.content[2].modelAudioSrc">
                 <audio class="w-30 mt-4" controls >
