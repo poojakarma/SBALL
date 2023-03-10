@@ -9,6 +9,7 @@ import { Location, LocationStrategy } from '@angular/common';
 })
 export class ViewLessonComponent implements OnInit {
   @Input() lessonData
+  textShow:boolean
 
   constructor(private sanitizer: DomSanitizer, private location: Location, private locationStrategy: LocationStrategy) { }
 
@@ -28,5 +29,8 @@ export class ViewLessonComponent implements OnInit {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
+  showText(){
+    this.textShow = !this.textShow;
+  }
 
 }
