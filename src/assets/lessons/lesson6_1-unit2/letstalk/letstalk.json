@@ -23,12 +23,24 @@
       "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio2.mp3"
     },
     {
+      "type": "transcript",
+      "content": "<pre  style='word-wrap: break-word; white-space: pre-wrap;'>Who are your friends? What do you like to do with your friends?</pre>"
+    },
+    {
       "type": "audio",
       "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio3.mp3"
     },
     {
+      "type": "transcript",
+      "content": "<pre  style='word-wrap: break-word; white-space: pre-wrap;'>Are animals your friends? Do you like to play with animals?</pre>"
+    },
+    {
       "type": "audio",
       "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio4.mp3"
+    },
+    {
+      "type": "transcript",
+      "content": "<pre  style='word-wrap: break-word; white-space: pre-wrap;'>If you are in a new school, how will you make friends?</pre>"
     }
   ]
 }
