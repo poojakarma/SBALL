@@ -644,27 +644,27 @@ th[sortable].desc:after {
   content: "\f27b";
   font-family: bootstrap-icons !important;
   background: #662D91;
-  //position: absolute;
-  right: 10px;
   font-size: 14px;
   border-radius: 50%;
   padding: 6px;
   color: #fff;
   font-weight: 900;
   margin-top: -14px;
+  position: relative;
+  left: 286px;
 }
 .sidepanel .pi-chevron-down:before, .sidepanel .pi-angle-down:before {
   content: "\F282";
   font-family: bootstrap-icons !important;
   background: #662D91;
-  position: absolute;
-  right: 10px;
   font-size: 14px;
   border-radius: 50%;
   padding: 6px;
   color: #fff;
   font-weight: 900;
   margin-top: -14px;
+  position: relative;
+  left: 286px;
 }
 li a[aria-expanded="true"] span{
   color: #662D91 !important;
