@@ -24,12 +24,25 @@
         "content": "assets/lessons/lesson8-unit2/letstalk/audio/audio2.mp3"
     },
     {
+      "type": "transcript",
+      "content": "<p>You meet a famous cricketer for the first time. Ask him/her a few questions.</p>"
+    },
+    {
       "type": "audio",
       "content": "assets/lessons/lesson8-unit2/letstalk/audio/audio3.mp3"
-  },{
+    },
+    {
+      "type": "transcript",
+      "content": "<p>You are a T.V. interviewer. You are going to ask questions to a famous dancer.</p>"
+    },
+    {
     "type": "audio",
     "content": "assets/lessons/lesson8-unit2/letstalk/audio/audio4.mp3"
-}
-  
+    },
+    {
+      "type": "transcript",
+      "content": "<p>You are a T.V. interviewer. Your friend is a scientist. Ask him/her a few questions.</p>"
+    }
+    
   ]
   }
