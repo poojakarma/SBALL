@@ -1,0 +1,20 @@
+{
+  "title": "Introduction",
+  "id": "introduction2",
+  "data": [
+    
+    {
+        "type": "image",
+        "content": "assets/lessons/lesson9-unit2/introduction2/images/1.png"
+        
+      },
+
+    {
+        "type": "audio",
+        "content": "assets/lessons/lesson9-unit2/introduction2/audio/instruction-1.mp3"
+    },
+    {
+      "type": "html",
+      "content": "<br><blockquote>You can listen to the audio again by clicking on the <img alt='Play' src='assets/lessons/lesson7-unit2/introduction2/images/2.svg' width='20'> button.</blockquote>"
+  }
+]}

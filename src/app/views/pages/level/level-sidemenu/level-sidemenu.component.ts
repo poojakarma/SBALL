@@ -92,14 +92,14 @@ export class LevelSidemenuComponent implements OnInit {
       },
       {
         label: 'Free Time Activities',
-        id:"lesson9",
+        id: "lesson9",
         items: [
-            { label: 'Leisure: What\'s in store today?', command: () => this.levelService.getLesson("lesson9","introduction"), id: "introduction", pid: "lesson9"},
-            { label: 'Warm Up', command: () => this.levelService.getLesson("lesson9","warmUp"), id: "warmUp", pid: "lesson9"},
-            { label: 'CLIx Time (Quiz Time)', command: () => this.levelService.getLesson("lesson9","pictureplay"), id: "pictureplay", pid: "lesson9"},
-            { label: 'Open Story', command: () => this.levelService.getLesson("lesson9","openstory"), id: "openstory", pid: "lesson9"},
-            { label: 'Think and Write', command: () => this.levelService.getLesson("lesson9","thinkandwrite"), id: "thinkandwrite", pid: "lesson9"},
-            { label: 'Word Help', command: () => this.levelService.getLesson("lesson9","wordhelp"), id: "wordhelp", pid: "lesson9"}
+          { label: 'Leisure: What\'s in store today?', command: () => this.levelService.getLesson("lesson9", "introduction"), id: "introduction", pid: "lesson9" },
+          { label: 'Warm Up', command: () => this.levelService.getLesson("lesson9", "warmUp"), id: "warmUp", pid: "lesson9" },
+          { label: 'CLIx Time (Quiz Time)', command: () => this.levelService.getLesson("lesson9", "pictureplay"), id: "pictureplay", pid: "lesson9" },
+          { label: 'Open Story', command: () => this.levelService.getLesson("lesson9", "openstory"), id: "openstory", pid: "lesson9" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("lesson9", "thinkandwrite"), id: "thinkandwrite", pid: "lesson9" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson9", "wordhelp"), id: "wordhelp", pid: "lesson9" }
         ]
       },
       {
@@ -171,51 +171,102 @@ export class LevelSidemenuComponent implements OnInit {
           { label: 'Introduction', command: () => this.levelService.getLesson("lesson3-unit2", "introduction"), id: "introduction", pid: "lesson3-unit2" },
           { label: 'Story Time: When Amma Went to School', command: () => this.levelService.getLesson("lesson3-unit2", "storytime"), id: "storytime", pid: "lesson3-unit2" },
           { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-unit2", "openstory"), id: "openstory", pid: "lesson3-unit2" },
-          // { label: 'Introduction 2', command: () => this.levelService.getLesson("lesson3-unit2", "introduction2"), id: "introduction2", pid: "lesson3-unit2" },
-          // { label: 'Story Time: Brushing is No Fun!', command: () => this.levelService.getLesson("lesson3-unit2", "storytime2"), id: "storytime2", pid: "lesson3-unit2" },
-          // { label: 'Word Play', command: () => this.levelService.getLesson("lesson3-unit2", "wordplay"), id: "wordplay", pid: "lesson3-unit2" },
-          // { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-unit2", "openstory2"), id: "openstory2", pid: "lesson3-unit2" },
           { label: 'Think and Write', command: () => this.levelService.getLesson("lesson3-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson3-unit2" },
           { label: 'Word Help', command: () => this.levelService.getLesson("lesson3-unit2", "wordhelp"), id: "wordhelp", pid: "lesson3-unit2" }
         ]
       },
       {
         label: 'Brushing is No Fun!',
-        id:"lesson3-1-unit2",
+        id: "lesson3-1-unit2",
         items: [
-          { label: 'Introduction', command: () => this.levelService.getLesson("lesson3-1-unit2","introduction2"), id: "introduction2", pid: "lesson3-1-unit2"},
-          { label: 'Story Time: Brushing is No Fun!', command: () => this.levelService.getLesson("lesson3-1-unit2","storytime2"), id: "storytime2", pid: "lesson3-1-unit2"}, 
-            { label: 'Word Play', command: () => this.levelService.getLesson("lesson3-1-unit2","wordplay"), id: "wordplay", pid: "lesson3-1-unit2"},
-            { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-1-unit2","openstory2"), id: "openstory2", pid: "lesson3-1-unit2"},
-            { label: 'Think and Write', command: () => this.levelService.getLesson("lesson3-1-unit2","thinkandwrite"), id: "thinkandwrite", pid: "lesson3-1-unit2"},
-            { label: 'Word Help', command: () => this.levelService.getLesson("lesson3-1-unit2","wordhelp"), id: "wordhelp", pid: "lesson3-1-unit2"}
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson3-1-unit2", "introduction2"), id: "introduction2", pid: "lesson3-1-unit2" },
+          { label: 'Story Time: Brushing is No Fun!', command: () => this.levelService.getLesson("lesson3-1-unit2", "storytime2"), id: "storytime2", pid: "lesson3-1-unit2" },
+          { label: 'Word Play', command: () => this.levelService.getLesson("lesson3-1-unit2", "wordplay"), id: "wordplay", pid: "lesson3-1-unit2" },
+          { label: 'Open Story', command: () => this.levelService.getLesson("lesson3-1-unit2", "openstory2"), id: "openstory2", pid: "lesson3-1-unit2" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("lesson3-1-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson3-1-unit2" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson3-1-unit2", "wordhelp"), id: "wordhelp", pid: "lesson3-1-unit2" }
         ]
       },
-        {
+      {
         label: 'Annual Haircut Day',
         id: "unit2lesson4",
         items: [
-          { label: 'Lesson 4: What\'s in store today?', command: () => this.levelService.getLesson("unit2lesson4", "introduction"), id: "introduction", pid: "unit2lesson4" },
+          { label: 'What\'s in store today?', command: () => this.levelService.getLesson("unit2lesson4", "introduction"), id: "introduction", pid: "unit2lesson4" },
           { label: 'Introduction 1', command: () => this.levelService.getLesson("unit2lesson4", "introduction1"), id: "introduction1", pid: "unit2lesson4" },
           { label: 'Story Time:Annual Haircut Day', command: () => this.levelService.getLesson("unit2lesson4", "storytime1"), id: "storytime1", pid: "unit2lesson4" },
           { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4", "letstalk1"), id: "letstalk1", pid: "unit2lesson4" },
           { label: 'Open Story', command: () => this.levelService.getLesson("unit2lesson4", "openstory"), id: "openstory", pid: "unit2lesson4" },
-          { label: 'Introduction 2', command: () => this.levelService.getLesson("unit2lesson4", "introduction2"), id: "introduction2", pid: "unit2lesson4" },
-          { label: 'Story Time:The Red Rain Coat', command: () => this.levelService.getLesson("unit2lesson4", "storytime2"), id: "storytime2", pid: "unit2lesson4" },
-          { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2lesson4", "letstalk2"), id: "letstalk2", pid: "unit2lesson4" },
           { label: 'Think and Write', command: () => this.levelService.getLesson("unit2lesson4", "thinkandwrite"), id: "thinkandwrite", pid: "unit2lesson4" },
           { label: 'Word Help', command: () => this.levelService.getLesson("unit2lesson4", "wordhelp"), id: "wordhelp", pid: "unit2lesson4" }
         ]
       },
       {
-        label: 'Samira\'s Awful Lunch',
-        id:"lesson7-unit2",
+        label: 'The Red Rain Coat',
+        id: "unit2-1lesson4",
         items: [
-          { label: 'Introduction', command: () => this.levelService.getLesson("lesson7-unit2","introduction2"), id: "introduction2", pid: "lesson7-unit2"},
-          { label: 'Story Time: Samira\'s Awful Lunch', command: () => this.levelService.getLesson("lesson7-unit2","storytime2"), id: "storytime2", pid: "lesson7-unit2"}, 
-            { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson7-unit2","wordplay"), id: "wordplay", pid: "lesson7-unit2"},
-            { label: 'Think and Write', command: () => this.levelService.getLesson("lesson7-unit2","thinkandwrite"), id: "thinkandwrite", pid: "lesson7-unit2"},
-                { label: 'Word Help', command: () => this.levelService.getLesson("lesson7-unit2","wordhelp"), id: "wordhelp", pid: "lesson7-unit2"}
+          { label: 'Introduction', command: () => this.levelService.getLesson("unit2-1lesson4", "introduction2"), id: "introduction2", pid: "unit2-1lesson4" },
+          { label: 'Story Time:The Red Rain Coat', command: () => this.levelService.getLesson("unit2-1lesson4", "storytime2"), id: "storytime2", pid: "unit2-1lesson4" },
+          { label: 'Lets Talk', command: () => this.levelService.getLesson("unit2-1lesson4", "letstalk2"), id: "letstalk2", pid: "unit2-1lesson4" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("unit2-1lesson4", "thinkandwrite"), id: "thinkandwrite", pid: "unit2-1lesson4" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("unit2-1lesson4", "wordhelp"), id: "wordhelp", pid: "unit2-1lesson4" }
+        ]
+      },
+      {
+        label: 'Goodnight Tinku!',
+        id: "lesson6_1-unit2",
+        items: [
+          { label: 'What\'s in store today?', command: () => this.levelService.getLesson("lesson6_1-unit2", "review"), id: "review", pid: "lesson6_1-unit2" },
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson6_1-unit2", "introduction"), id: "introduction", pid: "lesson6_1-unit2" },
+          { label: 'Story Time: Goodnight Tinku!', command: () => this.levelService.getLesson("lesson6_1-unit2", "storytime"), id: "storytime", pid: "lesson6_1-unit2" },
+          { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson6_1-unit2", "letstalk"), id: "letstalk", pid: "lesson6_1-unit2" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("lesson6_1-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson6_1-unit2" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson6_1-unit2", "wordhelp"), id: "wordhelp", pid: "lesson6_1-unit2" }
+        ]
+      },
+      {
+        label: 'The Boy and the Drum',
+        id: "lesson6_2-unit2",
+        items: [
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson6_2-unit2", "introduction"), id: "introduction", pid: "lesson6_2-unit2" },
+          { label: 'Story Time: Goodnight Tinku!', command: () => this.levelService.getLesson("lesson6_2-unit2", "storytime"), id: "storytime", pid: "lesson6_2-unit2" },
+          { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson6_2-unit2", "letstalk"), id: "letstalk", pid: "lesson6_2-unit2" },
+          { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson6_2-unit2", "clixtime"), id: "clixtime", pid: "lesson6_2-unit2" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("lesson6_2-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson6_2-unit2" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson6_2-unit2", "wordhelp"), id: "wordhelp", pid: "lesson6_2-unit2" }
+        ]
+      },
+      {
+        label: 'Samira\'s Awful Lunch',
+        id: "lesson7-unit2",
+        items: [
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson7-unit2", "introduction2"), id: "introduction2", pid: "lesson7-unit2" },
+          { label: 'Story Time: Samira\'s Awful Lunch', command: () => this.levelService.getLesson("lesson7-unit2", "storytime2"), id: "storytime2", pid: "lesson7-unit2" },
+          { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson7-unit2", "wordplay"), id: "wordplay", pid: "lesson7-unit2" },
+          { label: 'Think and Write', command: () => this.levelService.getLesson("lesson7-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson7-unit2" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson7-unit2", "wordhelp"), id: "wordhelp", pid: "lesson7-unit2" }
+        ]
+      },
+      {
+        label: 'Tara Finds her Stars',
+        id: "lesson8-unit2",
+        items: [
+          { label: 'What\'s in store today?', command: () => this.levelService.getLesson("lesson8-unit2", "review"), id: "review", pid: "lesson8-unit2" },
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson8-unit2", "introduction"), id: "introduction", pid: "lesson8-unit2" },
+          { label: 'Story Time: Tara Finds Her Stars', command: () => this.levelService.getLesson("lesson8-unit2", "storytime"), id: "storytime", pid: "lesson8-unit2" },
+          { label: 'Let\'s Talk', command: () => this.levelService.getLesson("lesson8-unit2", "letstalk"), id: "letstalk", pid: "lesson8-unit2" },
+          { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson8-unit2", "clixtime"), id: "clixtime", pid: "lesson8-unit2" },
+          { label: 'Word Help', command: () => this.levelService.getLesson("lesson8-unit2", "wordhelp"), id: "wordhelp", pid: "lesson8-unit2" }
+        ]
+      },
+      {
+        label: 'Scarecrows on Parade',
+        id:"lesson9-unit2",
+        items: [
+          { label: 'Introduction', command: () => this.levelService.getLesson("lesson9-unit2","introduction2"), id: "introduction2", pid: "lesson9-unit2"},
+          { label: 'Story Time: The Scarecrows on Parade!', command: () => this.levelService.getLesson("lesson9-unit2","storytime2"), id: "storytime2", pid: "lesson9-unit2"}, 
+            { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson9-unit2","clix"), id: "clix", pid: "lesson9-unit2"},
+            { label: 'Think and Write', command: () => this.levelService.getLesson("lesson9-unit2","thinkandwrite"), id: "thinkandwrite", pid: "lesson9-unit2"},
+                { label: 'Word Help', command: () => this.levelService.getLesson("lesson9-unit2","wordhelp"), id: "wordhelp", pid: "lesson9-unit2"}
         ]
       }
     ]

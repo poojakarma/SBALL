@@ -1,0 +1,34 @@
+{
+  "title": "Let's Talk: Making Friends",
+  "id": "letstalk",
+  "data": [
+    {
+      "type": "html",
+      "content": "<br><blockquote>Let's talk about friendships.</blockquote>"
+    },
+    {
+      "type": "audio",
+      "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio1.mp3"
+    },
+    {
+      "type": "html",
+      "content": "<br><blockquote>Read the options given below. Click on Answer This to choose one of the following options<br></blockquote>"
+    },
+    {
+      "type": "recording",
+      "content": ""
+    },
+    {
+      "type": "audio",
+      "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio2.mp3"
+    },
+    {
+      "type": "audio",
+      "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio3.mp3"
+    },
+    {
+      "type": "audio",
+      "content": "assets/lessons/lesson6_1-unit2/letstalk/audio/audio4.mp3"
+    }
+  ]
+}
