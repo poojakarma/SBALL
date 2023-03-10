@@ -28,7 +28,7 @@
     },
     {
         "type": "transcript",
-        "content": "<pre style='word-wrap: break-word; white-space: pre-wrap;'>The sun is out today. There's rain and thunder.It's cloudy, with some rain.It's sunny, with some rain.There's lightning and thunder.</pre>"
+        "content": "<pre  style='word-wrap: break-word; white-space: pre-wrap;'>The sun is out today.<br>There's rain and thunder.<br>It's cloudy, with some rain.<br>It's sunny, with some rain.<br>There's lightning and thunder.</pre>"
     },
     {
         "type": "html",

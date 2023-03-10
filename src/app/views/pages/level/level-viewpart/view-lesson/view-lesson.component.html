@@ -55,7 +55,7 @@
     </section>
 
     <section *ngIf="item.type == 'transcript'">
-      <div *ngIf="textShow" [innerHTML]="item.content"></div>
+      <div *ngIf="textShow" [innerHTML]="item.content" class="scrollbar"></div>
       <button type="button" (click) = "showText()" class="btn btn-primary">Transcript</button>
     </section>
 
