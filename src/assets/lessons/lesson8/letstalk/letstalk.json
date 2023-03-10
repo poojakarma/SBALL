@@ -12,6 +12,10 @@
           "content": "assets/lessons/lesson8/letstalk/audio/audio1.mp3"
       },
       {
+        "type": "transcript",
+        "content": "<pre style='word-wrap: break-word; white-space: pre-wrap;'>When do you feel happy, sad, tired,<br>worried, angry, bored or confused?<br>Choose any feeling and talk to your<br>partner about it.</pre>"
+      },
+      {
 
       "type": "images",
       "content": [
@@ -53,6 +57,10 @@
       {
         "type": "audio",
         "content": "assets/lessons/lesson8/letstalk/audio/audio2.mp3"
+    },
+    {
+      "type": "transcript",
+      "content": "<pre style='word-wrap: break-word; white-space: pre-wrap;'>When do you feel happy, sad, tired,<br>worried, angry, bored or confused?<br>Choose any feeling and talk to your<br>partner about it.</pre>"
     }
   ]
   }
