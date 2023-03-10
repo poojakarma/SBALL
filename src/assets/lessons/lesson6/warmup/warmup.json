@@ -21,6 +21,10 @@
     {
         "type": "video",
         "content": "assets/lessons/lesson6/warmup/video/instruction-1.mp4"
+    },
+    {
+        "type": "transcript",
+        "content": "<pre style='word-wrap: break-word; white-space: pre-wrap;'>ON<br>UNDER<br>IN FRONT OF<br>BEHIND<br>NEXT TO<br>IN BETWEEN<br>INSIDE<br>OUTSIDE<br>ABOVE<br>BELOW<br>ON THE LEFT<br>ON THE RIGHT</pre>"
     }    
 ]
 }
