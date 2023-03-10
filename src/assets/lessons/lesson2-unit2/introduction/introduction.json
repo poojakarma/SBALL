@@ -1,7 +1,11 @@
 {
-  "title": "Introduction 1",
+  "title": "Introduction",
   "id": "introduction",
   "data": [
+    {
+      "type": "html",
+      "content": "<br><blockquote>Click on Play to listen to the story. </blockquote>"
+    },
     {
         "type": "image",
         "content": "assets/lessons/lesson2-unit2/introduction/images/img1.png"
@@ -10,5 +14,9 @@
     {
         "type": "audio",
         "content": "assets/lessons/lesson2-unit2/introduction/audio/audio1.mp3"
+    },
+    {
+      "type": "html",
+      "content": "<br><blockquote>You can listen again by clicking on the Play button. </blockquote>"
     }
 ]}

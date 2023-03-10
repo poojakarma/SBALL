@@ -1,0 +1,19 @@
+{
+    "title": "Story Time: Goodnight Tinku!",
+    "id": "storytime",
+    "data": [
+        {
+            "type": "html",
+            "content": "<br><br><br><blockquote>Click on <img alt='Play' src='assets/lessons/lesson6_1-unit2/storytime/images/1.svg' width='20'> Play to listen to the story.<br>Read the subtitles to follow the dialogues carefully.<br> <br></blockquote>"
+        },
+      {
+          "type": "video",
+          "content": "assets/lessons/lesson6_1-unit2/storytime/video/video1.mp4"
+      },
+      {
+          "type": "html",
+          "content": "<br><blockquote>Replay the video if you wish to listen to the story again.<br>When you are ready, go to the next task.</blockquote>"
+      }
+  ]
+  }
+
