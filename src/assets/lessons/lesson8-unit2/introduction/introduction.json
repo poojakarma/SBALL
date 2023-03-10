@@ -1,0 +1,18 @@
+{
+  "title": "Introduction",
+  "id": "introduction",
+  "data": [
+    {
+        "type": "image",
+        "content": "assets/lessons/lesson8-unit2/introduction/images/img1.png"
+      },
+
+    {
+        "type": "audio",
+        "content": "assets/lessons/lesson8-unit2/introduction/audio/audio1.mp3"
+    },
+    {
+      "type": "html",
+      "content": "<br><blockquote>You can listen to the audio again by clicking on the Play button.</blockquote>"
+    }
+]}
