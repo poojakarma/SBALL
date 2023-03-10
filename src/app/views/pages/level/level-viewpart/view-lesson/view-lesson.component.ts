@@ -9,10 +9,15 @@ import { Location, LocationStrategy } from '@angular/common';
 })
 export class ViewLessonComponent implements OnInit {
   @Input() lessonData
+  modelAnsSwitch:boolean;
 
   constructor(private sanitizer: DomSanitizer, private location: Location, private locationStrategy: LocationStrategy) { }
 
   ngOnInit(): void {
+  }
+
+  switchModelAnswer(){
+    this.modelAnsSwitch = !this.modelAnsSwitch;
   }
 
   getOpenStoryHtml(url) {
