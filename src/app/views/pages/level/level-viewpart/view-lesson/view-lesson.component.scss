@@ -1,3 +1,11 @@
+
+.opt-selected {
+  border: 2px solid blue; cursor: pointer;padding: 16px;
+}
+
+.opt-unselected {
+  border: 2px solid black; cursor: pointer;padding: 16px;
+}
 .scrollbar{
     overflow-y: scroll;
     height: 100px;

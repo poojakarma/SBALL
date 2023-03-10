@@ -9,11 +9,32 @@ import { Location, LocationStrategy } from '@angular/common';
 })
 export class ViewLessonComponent implements OnInit {
   @Input() lessonData
-  textShow:boolean
+  modelAnsSwitch:boolean;
+  option1Selected: boolean;
+  option2Selected: boolean;
+  option3Selected: boolean;
+  textShow:boolean;
 
   constructor(private sanitizer: DomSanitizer, private location: Location, private locationStrategy: LocationStrategy) { }
 
   ngOnInit(): void {
+  }
+
+  switchModelAnswer(option){
+    if(option === 'option1'){
+      this.option1Selected = true;
+      this.option2Selected = false;
+      this.option3Selected = false;
+    }else if (option === 'option2'){
+      this.option1Selected = false;
+      this.option2Selected = true;
+      this.option3Selected = false;
+    }else{
+      this.option1Selected = false;
+      this.option2Selected = false;
+      this.option3Selected = true;
+    }
+    this.modelAnsSwitch = !this.modelAnsSwitch;
   }
 
   getOpenStoryHtml(url) {

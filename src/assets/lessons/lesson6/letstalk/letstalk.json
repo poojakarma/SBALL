@@ -16,6 +16,30 @@
           "type": "audio",
           "content": "assets/lessons/lesson6/letstalk/audio/instruction-1.mp3"
       },
+      {
+      "type": "options",
+      "content":[
+        {
+          "imageSrc": "",
+          "name":"Where are the fruits?",
+          "audioSrc": "assets/lessons/lesson6/letstalk/audio/option1.mp3",
+          "modelAudioSrc": "",
+          "answerText": "<ul><li>Look at the photograph and listen to an example.</li> <li>Discuss with your partner. Practice your answer.</li>  <li>When you are ready, record it by clicking 'Record'.</li>  <li>If you want to hear your recording, click on the ► button.</li>  <li>If you are happy with your recording, click on 'Save File'. &ZeroWidthSpace;</li></ul>"
+        },
+        {
+          "imageSrc": "",
+          "name":"Where is the girl sitting?",
+          "audioSrc": "assets/lessons/lesson6/letstalk/audio/option2.mp3",
+          "modelAudioSrc": ""
+        },
+        {
+          "imageSrc": "",
+          "name":"Where is the chair?",
+          "audioSrc": "assets/lessons/lesson6/letstalk/audio/option3.mp3",
+          "modelAudioSrc": ""
+        }
+      ]
+    },
 
       {
         "type": "recording",

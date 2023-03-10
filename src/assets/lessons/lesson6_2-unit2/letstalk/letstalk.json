@@ -23,12 +23,24 @@
       "content": "assets/lessons/lesson6_2-unit2/letstalk/audio/audio2.mp3"
     },
     {
+      "type": "transcript",
+      "content": "<p>Who is a kind person? Can you describe them?</p>"
+    },
+    {
       "type": "audio",
       "content": "assets/lessons/lesson6_2-unit2/letstalk/audio/audio3.mp3"
     },
     {
+      "type": "transcript",
+      "content": "<p>Have you ever helped someone? How did you help them?</p>"
+    },
+    {
       "type": "audio",
       "content": "assets/lessons/lesson6_2-unit2/letstalk/audio/audio4.mp3"
+    },
+    {
+      "type": "transcript",
+      "content": "<p>Has anyone ever helped you?</p>"
     }
   ]
 }
