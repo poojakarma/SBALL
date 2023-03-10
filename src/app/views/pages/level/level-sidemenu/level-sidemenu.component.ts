@@ -259,7 +259,14 @@ export class LevelSidemenuComponent implements OnInit {
     this.levelService.nextLessonData = [];
     this.Items.forEach(lesson => {
       lesson.items.forEach(topic => {
-        this.levelService.nextLessonData.push({ id: topic.id, pid: topic.pid })
+        if (!topic.items){
+          this.levelService.nextLessonData.push({ id: topic.id, pid: topic.pid })
+        }else{
+          topic.items.forEach(chapter => {
+            this.levelService.nextLessonData.push({ id: chapter.id, pid: chapter.pid })
+          })
+        }
+
       })
     })
 
@@ -268,7 +275,9 @@ export class LevelSidemenuComponent implements OnInit {
     setTimeout(function () {
       console.log(instance.levelService.nextLessonData);
     }, 2000)
+  }
 
+  setLesson(){
 
   }
 }
