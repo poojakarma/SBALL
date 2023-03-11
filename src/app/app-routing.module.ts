@@ -8,6 +8,7 @@ import { HomeComponent } from './views/pages/home/home.component';
 import { WordplayComponent } from './views/pages/level/level-viewpart/wordplay/wordplay.component';
 import { ResearchComponent } from './views/pages/research/research.component';
 import { ComingComponent } from './views/pages/coming/coming.component';
+import { LearnTommorowComponent } from './views/pages/learn-tommorow/learn-tommorow.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
       {
         path: 'research',
         component: ResearchComponent
+      },
+      {
+        path: 'learn-tommorow',
+        component: LearnTommorowComponent
       },
       {
         path: 'coming',
