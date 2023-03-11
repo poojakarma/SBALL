@@ -116,7 +116,7 @@ export class LevelSidemenuComponent implements OnInit {
             label: 'Under My Bed',
             id: "lesson1-unit2",
             items: [
-              { label: 'What\'s in store today?', command: () => this.levelService.getLesson("lesson1-unit2", "review"), id: "review", pid: "lesson1-unit2" },
+              // { label: 'What\'s in store today?', command: () => this.levelService.getLesson("lesson1-unit2", "review"), id: "review", pid: "lesson1-unit2" },
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson1-unit2", "introduction"), id: "introduction", pid: "lesson1-unit2" },
               { label: 'Story Time: Under my Bed', command: () => this.levelService.getLesson("lesson1-unit2", "storytime"), id: "storytime", pid: "lesson1-unit2" },
               { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson1-unit2", "letstalk"), id: "letstalk", pid: "lesson1-unit2" },
