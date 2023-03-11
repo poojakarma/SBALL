@@ -41,7 +41,7 @@ export class LevelSidemenuComponent implements OnInit {
         ]
       },
       {
-        label: 'Unit 1 Level 1',
+        label: 'Level 1',
         id: 'unit1',
         items: [
           {
@@ -50,7 +50,7 @@ export class LevelSidemenuComponent implements OnInit {
             items: [
               { label: 'Describing Actions: What\'s in store today?', command: () => this.levelService.getLesson("lesson1", "introduction"), id: "introduction", pid: "lesson1" },
               { label: 'Warm Up', command: () => this.levelService.getLesson("lesson1", "warmup"), id: "warmup", pid: "lesson1" },
-              { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay"), id: "pictureplay", pid: "lesson1" },
+              // { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay"), id: "pictureplay", pid: "lesson1" },
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson1", "openstory"), id: "openstory", pid: "lesson1" },
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson1", "thinkandwrite"), id: "thinkandwrite", pid: "lesson1" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson1", "wordhelp"), id: "wordhelp", pid: "lesson1" }
@@ -100,7 +100,7 @@ export class LevelSidemenuComponent implements OnInit {
             items: [
               { label: 'Leisure: What\'s in store today?', command: () => this.levelService.getLesson("lesson9", "introduction"), id: "introduction", pid: "lesson9" },
               { label: 'Warm Up', command: () => this.levelService.getLesson("lesson9", "warmUp"), id: "warmUp", pid: "lesson9" },
-              { label: 'CLIx Time (Quiz Time)', command: () => this.levelService.getLesson("lesson9", "pictureplay"), id: "pictureplay", pid: "lesson9" },
+              { label: 'Quiz Time', command: () => this.levelService.getLesson("lesson9", "pictureplay"), id: "pictureplay", pid: "lesson9" },
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson9", "openstory"), id: "openstory", pid: "lesson9" },
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson9", "thinkandwrite"), id: "thinkandwrite", pid: "lesson9" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson9", "wordhelp"), id: "wordhelp", pid: "lesson9" }
@@ -109,7 +109,7 @@ export class LevelSidemenuComponent implements OnInit {
         ]
       },
       {
-        label: "Unit 2 Level 2",
+        label: "Level 2",
         id: 'unit2',
         items: [
           {
