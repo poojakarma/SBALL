@@ -189,7 +189,7 @@ export class LevelSidemenuComponent implements OnInit {
             items: [
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson7-unit2", "introduction2"), id: "introduction2", pid: "lesson7-unit2" },
               { label: 'Story Time: Samira\'s Awful Lunch', command: () => this.levelService.getLesson("lesson7-unit2", "storytime2"), id: "storytime2", pid: "lesson7-unit2" },
-              { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson7-unit2", "wordplay"), id: "wordplay", pid: "lesson7-unit2" },
+              { label: 'Quiz Time', command: () => this.levelService.getLesson("lesson7-unit2", "wordplay"), id: "wordplay", pid: "lesson7-unit2" },
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson7-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson7-unit2" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson7-unit2", "wordhelp"), id: "wordhelp", pid: "lesson7-unit2" }
             ]
@@ -213,7 +213,7 @@ export class LevelSidemenuComponent implements OnInit {
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson6_2-unit2", "introduction"), id: "introduction", pid: "lesson6_2-unit2" },
               { label: 'Story Time: Goodnight Tinku!', command: () => this.levelService.getLesson("lesson6_2-unit2", "storytime"), id: "storytime", pid: "lesson6_2-unit2" },
               { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson6_2-unit2", "letstalk"), id: "letstalk", pid: "lesson6_2-unit2" },
-              { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson6_2-unit2", "clixtime"), id: "clixtime", pid: "lesson6_2-unit2" },
+              { label: 'Quiz Time', command: () => this.levelService.getLesson("lesson6_2-unit2", "clixtime"), id: "clixtime", pid: "lesson6_2-unit2" },
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson6_2-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson6_2-unit2" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson6_2-unit2", "wordhelp"), id: "wordhelp", pid: "lesson6_2-unit2" }
             ]
@@ -224,7 +224,7 @@ export class LevelSidemenuComponent implements OnInit {
             items: [
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson9-unit2","introduction2"), id: "introduction2", pid: "lesson9-unit2"},
               { label: 'Story Time: The Scarecrows on Parade!', command: () => this.levelService.getLesson("lesson9-unit2","storytime2"), id: "storytime2", pid: "lesson9-unit2"},
-                { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson9-unit2","clix"), id: "clix", pid: "lesson9-unit2"},
+                { label: 'Quiz Time', command: () => this.levelService.getLesson("lesson9-unit2","clix"), id: "clix", pid: "lesson9-unit2"},
                 { label: 'Think and Write', command: () => this.levelService.getLesson("lesson9-unit2","thinkandwrite"), id: "thinkandwrite", pid: "lesson9-unit2"},
                     { label: 'Word Help', command: () => this.levelService.getLesson("lesson9-unit2","wordhelp"), id: "wordhelp", pid: "lesson9-unit2"}
             ]
@@ -237,7 +237,7 @@ export class LevelSidemenuComponent implements OnInit {
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson8-unit2", "introduction"), id: "introduction", pid: "lesson8-unit2" },
               { label: 'Story Time: Tara Finds Her Stars', command: () => this.levelService.getLesson("lesson8-unit2", "storytime"), id: "storytime", pid: "lesson8-unit2" },
               { label: 'Let\'s Talk', command: () => this.levelService.getLesson("lesson8-unit2", "letstalk"), id: "letstalk", pid: "lesson8-unit2" },
-              { label: 'CLIx Time', command: () => this.levelService.getLesson("lesson8-unit2", "clixtime"), id: "clixtime", pid: "lesson8-unit2" },
+              { label: 'Quiz Time', command: () => this.levelService.getLesson("lesson8-unit2", "clixtime"), id: "clixtime", pid: "lesson8-unit2" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson8-unit2", "wordhelp"), id: "wordhelp", pid: "lesson8-unit2" }
             ]
           },
