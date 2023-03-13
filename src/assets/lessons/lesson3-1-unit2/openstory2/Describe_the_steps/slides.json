@@ -1,6 +1,6 @@
 {"name":"slideshow",
- "session_id":"bbce6723-85f9-4722-8523-cc7de583e21b",
+ "session_id":"0",
  "slides": [
-{"text": "", "duration": "6"},
-{"text": "", "duration": "6"},
-{"text": "", "duration": "6"}]}
+{"text": "", "duration": "6", "image": "slide1img.png"},
+{"text": "", "duration": "6", "image": "slide2img.png"},
+{"text": "", "duration": "6", "image": "slide3img.png"}]}
