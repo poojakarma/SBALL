@@ -146,7 +146,7 @@
         <div class="bg-grey">
             <div class="container">
                 <div class="d-flex circle-holder justify-content-between flex-wrap">
-                   <a href="#blue-section">
+                   <a (click)="scrolltoDiv('lear-for-tomorrow')">
                     <div class="blue-circle flex-center">
                         <div>
                             <div class="flex-center">
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                    </a>
-                    <a routerLink="/coming" href="">
+                    <a (click)="scrolltoDiv('boost-learning')">
                         <div class="blue-circle flex-center">
                             <div>
                                 <div class="flex-center">
@@ -242,7 +242,7 @@
     </section>
 
 
-    <section>
+    <section id="boost-learning">
         <div id="blue-section" class="bg-blue ptb-120 position-relative">
             <img class="shadow" src="../../../../assets/home-asset/shadow.png" alt="img">
             <div class="follow-label2">மொழிகள்</div>
