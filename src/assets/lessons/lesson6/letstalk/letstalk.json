@@ -23,20 +23,26 @@
           "imageSrc": "",
           "name":"Where are the fruits?",
           "audioSrc": "assets/lessons/lesson6/letstalk/audio/option1.mp3",
-          "modelAudioSrc": "",
+          "modelAudioSrc": "assets/lessons/lesson6/letstalk/audio/modelAns1.mp3",
+          "modelImageSrc":"assets/lessons/lesson6/letstalk/images/modelAns1.png",
+          "modelAnsTranscript": "Student A: Can you see the fruits? </br> Student B: Yes I can. </br> Student A: Where are they? </br> Student B: They are in front of the girl.",
           "answerText": "<ul><li>Look at the photograph and listen to an example.</li> <li>Discuss with your partner. Practice your answer.</li>  <li>When you are ready, record it by clicking 'Record'.</li>  <li>If you want to hear your recording, click on the ► button.</li>  <li>If you are happy with your recording, click on 'Save File'. &ZeroWidthSpace;</li></ul>"
         },
         {
           "imageSrc": "",
           "name":"Where is the girl sitting?",
           "audioSrc": "assets/lessons/lesson6/letstalk/audio/option2.mp3",
-          "modelAudioSrc": ""
+          "modelAudioSrc": "assets/lessons/lesson6/letstalk/audio/modelAns2.mp3",
+          "modelImageSrc":"assets/lessons/lesson6/letstalk/images/modelAns2.png",
+          "modelAnsTranscript": "A: Can you see the girl? </br> B: Yes, I can.A: Where is she sitting? </br> B: She is sitting on a chair."
         },
         {
           "imageSrc": "",
           "name":"Where is the chair?",
           "audioSrc": "assets/lessons/lesson6/letstalk/audio/option3.mp3",
-          "modelAudioSrc": ""
+          "modelAudioSrc": "assets/lessons/lesson6/letstalk/audio/modelAns2.mp3",
+          "modelImageSrc":"assets/lessons/lesson6/letstalk/images/modelAns3.png",
+          "modelAnsTranscript": "A: Can you see the chair? </br> B: Yes, I can see it. </br> A: Where is it? </br> B: It is next to the girl."
         }
       ]
     },
