@@ -132,6 +132,7 @@ export class LevelSidemenuComponent implements OnInit {
               { label: 'Introduction', command: () => this.levelService.getLesson("lesson2-unit2", "introduction"), id: "introduction", pid: "lesson2-unit2" },
               { label: 'Story Time: Ramya\'s Stars', command: () => this.levelService.getLesson("lesson2-unit2", "storytime"), id: "storytime", pid: "lesson2-unit2" },
               { label: 'Lets Talk', command: () => this.levelService.getLesson("lesson2-unit2", "letstalk"), id: "letstalk", pid: "lesson2-unit2" },
+              { label: 'Open Story', command: () => this.levelService.getLesson("lesson2-unit2", "openstory"), id: "openstory", pid: "lesson2-unit2" },
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson2-unit2", "thinkandwrite"), id: "thinkandwrite", pid: "lesson2-unit2" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson2-unit2", "wordhelp"), id: "wordhelp", pid: "lesson2-unit2" }
             ]
