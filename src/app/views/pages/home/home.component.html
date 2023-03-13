@@ -31,8 +31,8 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="">Home</a>
-                        <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="#lear-for-tomorrow" routerLink="#lear-for-tomorrow">Lets Learn</a>
-                        <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="">Lets Play</a>
+                        <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" href="#lear-for-tomorrow" routerLink="#lear-for-tomorrow" (click)="scrolltoDiv('lear-for-tomorrow')">Lets Learn</a>
+                        <a class="nav-link active me-4 fs-14 fw-700" aria-current="page" (click)="scrolltoDiv('boost-learning')">Lets Play</a>
                         <a class="nav-link me-4 fs-14 fw-700 parent"  href="">About
                             <ul class="sub-menu">
                                 <li>
@@ -171,7 +171,7 @@
         <div class="bg-grey">
             <div class="container">
                 <div class="d-flex circle-holder justify-content-between flex-wrap">
-                   <a href="#blue-section">
+                   <a (click)="scrolltoDiv('lear-for-tomorrow')">
                     <div class="blue-circle flex-center">
                         <div>
                             <div class="flex-center">
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                    </a>
-                    <a routerLink="/coming" href="">
+                    <a (click)="scrolltoDiv('boost-learning')">
                         <div class="blue-circle flex-center">
                             <div>
                                 <div class="flex-center">
@@ -291,7 +291,7 @@
     </section>
 
 
-    <section>
+    <section id="boost-learning">
         <div id="blue-section" class="bg-blue ptb-120 position-relative">
             <img class="shadow" src="../../../../assets/home-asset/shadow.png" alt="img">
             <div class="follow-label2">மொழிகள்</div>
