@@ -36,7 +36,7 @@ export class LevelSidemenuComponent implements OnInit {
         id: "speakWithMe_unit",
         expanded: true,
         items: [
-          { routerLink: ['/pagename'], queryParams: {'recent': 'true'}, label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe", "lesson1"), lid: "lesson1", pid: "speakWithMe", id: "speakWithMe_lesson1"},
+          { label: 'Explore & Learn', command: () => this.levelService.getLesson("speakWithMe", "lesson1"), lid: "lesson1", pid: "speakWithMe", id: "speakWithMe_lesson1"},
           { label: 'Play & Learn', command: () => this.levelService.getLesson("speakWithMe", "lesson2"), lid: "lesson2", pid: "speakWithMe", id: "speakWithMe_lesson2" },
           { label: 'Learn with a Friend', command: () => this.levelService.getLesson("speakWithMe", "lesson3"), lid: "lesson3", pid: "speakWithMe", id: "speakWithMe_lesson3"}
         ]
@@ -53,7 +53,7 @@ export class LevelSidemenuComponent implements OnInit {
             items: [
               { label: 'Describing Actions: What\'s in store today?', command: () => this.levelService.getLesson("lesson1", "introduction"), lid: "introduction", pid: "lesson1", id: "lesson1_introduction" },
               { label: 'Warm Up', command: () => this.levelService.getLesson("lesson1", "warmup"), lid: "warmup", pid: "lesson1", id: "lesson1_warmup" },
-              { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay"), lid: "pictureplay", pid: "lesson1", id: "lesson1_pictureplay"},
+              // { label: 'Picture Play', command: () => this.levelService.getLesson("lesson1", "pictureplay"), lid: "pictureplay", pid: "lesson1", id: "lesson1_pictureplay"},
               { label: 'Open Story', command: () => this.levelService.getLesson("lesson1", "openstory"), lid: "openstory", pid: "lesson1", id: "lesson1_openstory"},
               { label: 'Think and Write', command: () => this.levelService.getLesson("lesson1", "thinkandwrite"), lid: "thinkandwrite", pid: "lesson1", id: "lesson1_thinkandwrite" },
               { label: 'Word Help', command: () => this.levelService.getLesson("lesson1", "wordhelp"), lid: "wordhelp", pid: "lesson1", id: "lesson1_wordhelp" }
