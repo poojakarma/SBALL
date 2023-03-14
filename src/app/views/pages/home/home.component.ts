@@ -38,12 +38,12 @@ if (e.data.for=="user")
        
        $(document).ready(function(){
         $("#eng").click(function(){
-          $(".tamil").fadeOut();
-           $(".english").fadeIn();
+          localStorage.setItem('lang','en');
+          document.location.reload();
         }); 
         $("#de").click(function(){
-           $(".english").hide();
-          $(".tamil").show();
+          localStorage.setItem('lang','ta');
+          document.location.reload();
         });
         }); 
         $(document).ready(function(){
